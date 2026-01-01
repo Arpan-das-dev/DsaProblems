@@ -5,8 +5,40 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+/**
+ * Utility class for grouping strings that are anagrams of each other.
+ *
+ * <p>Two strings are considered anagrams if they contain the same characters
+ * with the same frequencies, regardless of order.</p>
+ *
+ * <p><b>Approach:</b>
+ * <ul>
+ *   <li>Each string is converted into a frequency signature of 26 lowercase letters</li>
+ *   <li>The frequency signature is serialized into a unique String key</li>
+ *   <li>A HashMap is used to group strings sharing the same signature</li>
+ * </ul>
+ *
+ * <p>This frequency-based approach avoids sorting and achieves optimal
+ * performance.</p>
+ *
+ * <p><b>Time Complexity:</b> O(n × k), where n is the number of strings and
+ * k is the average length of each string<br>
+ * <b>Space Complexity:</b> O(n × k)</p>
+ *
+ * @author Arpan Das
+ * @since 01/01/2025
+ */
 public class GroupOfAnagrams {
-    public List<List<String>> groupAnagramsBrute(String [] strings) {
+    /**
+     * Groups a list of strings into collections of anagrams.
+     *
+     * <p>Strings that share the same character frequency signature are
+     * grouped together.</p>
+     *
+     * @param strings an array of lowercase strings
+     * @return a list of groups, where each group contains anagram strings
+     */
+    public List<List<String>> groupAnagrams(String [] strings) {
         Map<String , List<String>> stringListMap = new HashMap<>();
 
         for(String str : strings) {
