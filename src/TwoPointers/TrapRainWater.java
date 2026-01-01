@@ -1,7 +1,39 @@
 package TwoPointers;
-
+/**
+ * Utility class to calculate the amount of water trapped after rainfall
+ * given an elevation map represented by an integer array.
+ *
+ * <p>The algorithm uses an optimal <b>two-pointer technique</b> and
+ * follows the physical rule that water trapped at any index is determined
+ * by the <b>minimum of the maximum heights</b> on its left and right sides.</p>
+ *
+ * <p><b>Core Idea:</b>
+ * <ul>
+ *   <li>Two pointers traverse the array from both ends</li>
+ *   <li>The side with the smaller height determines the water level (bottleneck)</li>
+ *   <li>Maximum heights from left and right are tracked incrementally</li>
+ * </ul>
+ *
+ * <p>This approach avoids extra space and processes each bar only once.</p>
+ *
+ * <p><b>Time Complexity:</b> O(n) — each index is visited once<br>
+ * <b>Space Complexity:</b> O(1) — constant extra space</p>
+ *
+ * @author Arpan Das
+ * @since 01/01/2025
+ */
 public class TrapRainWater {
 
+    /**
+     * Calculates the total amount of rainwater trapped between bars.
+     *
+     * <p>The method iteratively determines which side (left or right)
+     * acts as the limiting boundary and accumulates water accordingly.</p>
+     *
+     * @param heights an array representing the elevation map where each element
+     *                corresponds to the height of a bar
+     * @return the total units of water trapped after rainfall
+     */
     public int trackTrappedWater(int[] heights) {
         System.out.println("starting to calculate watter trapped by rain for size " + heights.length);
         System.out.println();
