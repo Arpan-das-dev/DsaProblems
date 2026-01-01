@@ -27,6 +27,6 @@ public class Main {
 
         GroupOfAnagrams anagrams = new GroupOfAnagrams();
         System.out.println("01/01/2026 returns group of anagrams as a list which is a list of strings");
-        System.out.println(anagrams.groupAnagramsBrute(new String[] {"eat","tea","tan","ate","nat","bat"}));
+        System.out.println(anagrams.groupAnagrams(new String[] {"eat","tea","tan","ate","nat","bat"}));
     }
 }
