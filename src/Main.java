@@ -1,3 +1,4 @@
+import DynamicProgramming.HouseRobber1;
 import Hashing.ContainsDuplicate;
 import Hashing.GroupOfAnagrams;
 import Stack.ValidParenthesis;
@@ -28,5 +29,10 @@ public class Main {
         GroupOfAnagrams anagrams = new GroupOfAnagrams();
         System.out.println("01/01/2026 returns group of anagrams as a list which is a list of strings");
         System.out.println(anagrams.groupAnagrams(new String[] {"eat","tea","tan","ate","nat","bat"}));
+        System.out.println();
+
+        HouseRobber1 robber1 = new HouseRobber1();
+        System.out.println("01/01/2026 checking max amount can be looted from multiple home");
+        System.out.println(robber1.maxMoneyStolen(new int[]{2,7,9,3,1}));
     }
 }
