@@ -38,45 +38,27 @@ public class MergeKLists {
      * @return the head of the merged sorted linked list
      */
     public ListNode mergeKLists(ListNode[] lists) {
-
-        // Edge case: null or empty input
-        if (lists == null || lists.length == 0) {
-            return null;
+        if(lists == null || lists.length == 0) return null;
+        PriorityQueue <ListNode> nodePriorityQueue = new PriorityQueue<>((a,b)-> a.val - b.val);
+        for(ListNode item : lists) {
+            if(item!=null) nodePriorityQueue.offer(item); // adding nodes in the priority queue in sorting order;
         }
+        ListNode dummy = new ListNode(0); // instantiating a dummy list node with 0 initial value;
+        ListNode temp = dummy; // storing the value in temp variable;
 
-        // Min-heap based on node values
-        PriorityQueue<ListNode> minHeap = new PriorityQueue<>((a, b) -> a.val - b.val);
-
-        // Add head of each list to the heap
-        for (ListNode node : lists) {
-            if (node != null) {
-                minHeap.offer(node);
-            }
+        while (!nodePriorityQueue.isEmpty()) {
+            ListNode smallest = nodePriorityQueue.poll(); // get the top value as smallest as per queue config
+            temp.next = smallest; // setting the next value of temp as smallest;
+            temp = temp.next; //store the top value as smallest in the root
+            if(smallest.next != null) nodePriorityQueue.offer(smallest);
         }
-
-        // Dummy node to simplify list construction
-        ListNode dummy = new ListNode(0);
-        ListNode tail = dummy;
-
-        // Process nodes in ascending order
-        while (!minHeap.isEmpty()) {
-
-            // Extract smallest node
-            ListNode smallest = minHeap.poll();
-
-            // Attach to result list
-            tail.next = smallest;
-            tail = tail.next;
-
-            // Add next node from the same list to heap
-            if (smallest.next != null) {
-                minHeap.offer(smallest.next);
-            }
-        }
-
-        // Return merged list (skip dummy)
         return dummy.next;
     }
-
+    /*
+     * [[1,4,5],[1,3,4],[2,6]] input
+     * now priority queue will store values like
+     * [0] -> 1 [1] -> 1 [2] -> 2
+     * as it's a node it will get only root values
+     */
 }
 
