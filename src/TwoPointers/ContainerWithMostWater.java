@@ -59,4 +59,3 @@ public class ContainerWithMostWater {
         return water;
     }
 }
-Add two-pointer solution for maximum water container (ContainerWithMostWater class)
