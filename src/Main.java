@@ -1,7 +1,10 @@
+import DynamicProgramming.DecodeWays;
 import DynamicProgramming.HouseRobber1;
 import Hashing.ContainsDuplicate;
 import Hashing.GroupOfAnagrams;
+import Hashing.LongestConsecutiveSequence;
 import Stack.ValidParenthesis;
+import TwoPointers.ContainerWithMostWater;
 import TwoPointers.TrapRainWater;
 import TwoPointers.ValidPalindrome;
 
@@ -34,5 +37,14 @@ public class Main {
         HouseRobber1 robber1 = new HouseRobber1();
         System.out.println("01/01/2026 checking max amount can be looted from multiple home");
         System.out.println(robber1.maxMoneyStolen(new int[]{2,7,9,3,1}));
+        System.out.println();
+
+        ContainerWithMostWater mostWater = new ContainerWithMostWater();
+        System.out.println("04/01/2026 solved how to check max amount of water stored by container");
+        System.out.println(mostWater.maxArea(new int[]{1,8,6,2,5,4,8,3,7}));
+        System.out.println();
+
+        LongestConsecutiveSequence consecutiveSequence = new LongestConsecutiveSequence();
+        DecodeWays ways = new DecodeWays();
     }
 }
