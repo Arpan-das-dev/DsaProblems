@@ -50,5 +50,8 @@ public class Main {
         System.out.println();
 
         DecodeWays ways = new DecodeWays();
+        System.out.println("04/01/2026 solved how many we can decode a string");
+        System.out.println(ways.numDecoding("11106"));
+        System.out.println();
     }
 }
