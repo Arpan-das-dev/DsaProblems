@@ -4,6 +4,7 @@ import Graphs.MaxAreaOfIsland;
 import Hashing.ContainsDuplicate;
 import Hashing.GroupOfAnagrams;
 import Hashing.LongestConsecutiveSequence;
+import Hashing.TwoSum1;
 import Stack.DailyTemperatures;
 import Stack.ValidParenthesis;
 import TwoPointers.ContainerWithMostWater;
@@ -82,5 +83,14 @@ public class Main {
         System.out.println();
         Arrays.stream(temperatures.dailyTempOptimal(new int[]{73,74,75,71,69,72,76,73}))
                 .forEach(item-> System.out.print(item+" "));
+        System.out.println();
+
+        TwoSum1 sum1 = new TwoSum1();
+        System.out.println("05/01/2026 solved to find elements in an array who can reach the given target");
+        Arrays.stream(sum1.twoSum(new int[] {2,7,11,15},9))
+                .forEach(item-> System.out.print(item+" "));
+        System.out.println();
+
+
     }
 }
