@@ -4,10 +4,13 @@ import Graphs.MaxAreaOfIsland;
 import Hashing.ContainsDuplicate;
 import Hashing.GroupOfAnagrams;
 import Hashing.LongestConsecutiveSequence;
+import Stack.DailyTemperatures;
 import Stack.ValidParenthesis;
 import TwoPointers.ContainerWithMostWater;
 import TwoPointers.TrapRainWater;
 import TwoPointers.ValidPalindrome;
+
+import java.util.Arrays;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
@@ -69,5 +72,15 @@ public class Main {
         };
         System.out.println("total area of a max island is -> "+island.maxAreaOfIsland(waterBodyWithIsland));
         System.out.println();
+
+        DailyTemperatures temperatures = new DailyTemperatures();
+        System.out.println("05/01/2026 solved to find to wait for next warmer days in an array");
+        Arrays.stream(temperatures.dailyTempBrute(new int[]{73,74,75,71,69,72,76,73}))
+                .forEach(item-> System.out.print(item+" "));
+        System.out.println();
+        System.out.println("optimal solution below");
+        System.out.println();
+        Arrays.stream(temperatures.dailyTempOptimal(new int[]{73,74,75,71,69,72,76,73}))
+                .forEach(item-> System.out.print(item+" "));
     }
 }
