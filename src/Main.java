@@ -1,5 +1,6 @@
 import DynamicProgramming.DecodeWays;
 import DynamicProgramming.HouseRobber1;
+import Graphs.MaxAreaOfIsland;
 import Hashing.ContainsDuplicate;
 import Hashing.GroupOfAnagrams;
 import Hashing.LongestConsecutiveSequence;
@@ -52,6 +53,21 @@ public class Main {
         DecodeWays ways = new DecodeWays();
         System.out.println("04/01/2026 solved how many we can decode a string");
         System.out.println(ways.numDecoding("11106"));
+        System.out.println();
+
+        MaxAreaOfIsland island = new MaxAreaOfIsland();
+        System.out.println("05/01/2026 solved how to find max area of an island");
+        int[][] waterBodyWithIsland = new int[][] {
+                {0,0,1,0,0,0,0,1,0,0,0,0,0},
+                {0,0,0,0,0,0,0,1,1,1,0,0,0},
+                {0,1,1,0,1,0,0,0,0,0,0,0,0},
+                {0,1,0,0,1,1,0,0,1,0,1,0,0},
+                {0,1,0,0,1,1,0,0,1,1,1,0,0},
+                {0,0,0,0,0,0,0,0,0,0,1,0,0},
+                {0,0,0,0,0,0,0,1,1,1,0,0,0},
+                {0,0,0,0,0,0,0,1,1,0,0,0,0}
+        };
+        System.out.println("total area of a max island is -> "+island.maxAreaOfIsland(waterBodyWithIsland));
         System.out.println();
     }
 }
