@@ -1,10 +1,7 @@
 import DynamicProgramming.DecodeWays;
 import DynamicProgramming.HouseRobber1;
 import Graphs.MaxAreaOfIsland;
-import Hashing.ContainsDuplicate;
-import Hashing.GroupOfAnagrams;
-import Hashing.LongestConsecutiveSequence;
-import Hashing.TwoSum1;
+import Hashing.*;
 import Stack.DailyTemperatures;
 import Stack.ValidParenthesis;
 import TwoPointers.ContainerWithMostWater;
@@ -91,6 +88,7 @@ public class Main {
                 .forEach(item-> System.out.print(item+" "));
         System.out.println();
 
-
+        ProductExceptSelf self = new ProductExceptSelf();
+        System.out.println(Arrays.toString(self.productExceptSelf(new int[]{1,2,3,4})));
     }
 }
