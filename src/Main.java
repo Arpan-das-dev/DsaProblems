@@ -1,6 +1,7 @@
 import BinarySearch.SearchInRotatedSortedArray;
 import DynamicProgramming.DecodeWays;
 import DynamicProgramming.HouseRobber1;
+import DynamicProgramming.WordBreak;
 import Graphs.MaxAreaOfIsland;
 import Hashing.*;
 import Stack.DailyTemperatures;
@@ -104,6 +105,8 @@ public class Main {
         System.out.println(threeSum.threeSum(new int[] {-1,0,1,2,-1,-4}));
         System.out.println();
 
-
+        WordBreak wordBreak = new WordBreak();
+        System.out.println("09/01/2026 solved word break problem");
+        System.out.println();
     }
 }
