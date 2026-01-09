@@ -6,6 +6,7 @@ import Hashing.*;
 import Stack.DailyTemperatures;
 import Stack.ValidParenthesis;
 import TwoPointers.ContainerWithMostWater;
+import TwoPointers.ThreeSum;
 import TwoPointers.TrapRainWater;
 import TwoPointers.ValidPalindrome;
 
@@ -97,5 +98,12 @@ public class Main {
         System.out.println("09/01/2026 solved to search an element in a rotated sorted array");
         System.out.println(search.search(new int[] {1,3},0));
         System.out.println();
+
+        ThreeSum threeSum = new ThreeSum();
+        System.out.println("09/01/2026 solved 3 sum problem from leet-code ");
+        System.out.println(threeSum.threeSum(new int[] {-1,0,1,2,-1,-4}));
+        System.out.println();
+
+
     }
 }
