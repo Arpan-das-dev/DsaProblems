@@ -1,3 +1,4 @@
+import BinarySearch.SearchInRotatedSortedArray;
 import DynamicProgramming.DecodeWays;
 import DynamicProgramming.HouseRobber1;
 import Graphs.MaxAreaOfIsland;
@@ -90,5 +91,11 @@ public class Main {
 
         ProductExceptSelf self = new ProductExceptSelf();
         System.out.println(Arrays.toString(self.productExceptSelf(new int[]{1,2,3,4})));
+
+
+        SearchInRotatedSortedArray search = new SearchInRotatedSortedArray();
+        System.out.println("09/01/2026 solved to search an element in a rotated sorted array");
+        System.out.println(search.search(new int[] {1,3},0));
+        System.out.println();
     }
 }
