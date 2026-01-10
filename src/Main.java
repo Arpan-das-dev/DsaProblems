@@ -1,4 +1,5 @@
 import BinarySearch.SearchInRotatedSortedArray;
+import DynamicProgramming.ClimbStairs;
 import DynamicProgramming.DecodeWays;
 import DynamicProgramming.HouseRobber1;
 import DynamicProgramming.WordBreak;
@@ -108,5 +109,9 @@ public class Main {
         WordBreak wordBreak = new WordBreak();
         System.out.println("09/01/2026 solved word break problem");
         System.out.println();
+
+        ClimbStairs stairs = new ClimbStairs();
+        System.out.println("10/01/2026 solved how many ways we can climb stairs with taking 1/2 step");
+        System.out.println(stairs.climbStairs(5));
     }
 }
