@@ -6,6 +6,7 @@ import DynamicProgramming.WordBreak;
 import Graphs.MaxAreaOfIsland;
 import Hashing.*;
 import Stack.DailyTemperatures;
+import Stack.MinStack;
 import Stack.ValidParenthesis;
 import TwoPointers.ContainerWithMostWater;
 import TwoPointers.ThreeSum;
@@ -113,5 +114,18 @@ public class Main {
         ClimbStairs stairs = new ClimbStairs();
         System.out.println("10/01/2026 solved how many ways we can climb stairs with taking 1/2 step");
         System.out.println(stairs.climbStairs(5));
+        System.out.println();
+
+        MinStack stack = new MinStack();
+        System.out.println("10/01/2026 solved to design new stack with required methods as per statement");
+        stack.push(2);
+        System.out.println("value push in stack");
+        stack.pop();
+        System.out.println("top value of stack is removed");
+        System.out.println("top element of the stack is ->"+stack.top());
+        System.out.println("min value inside the stack is ->" + stack.getMin());
+        System.out.println();
+
+
     }
 }
