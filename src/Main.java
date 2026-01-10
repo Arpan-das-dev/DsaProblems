@@ -120,10 +120,10 @@ public class Main {
         System.out.println("10/01/2026 solved to design new stack with required methods as per statement");
         stack.push(2);
         System.out.println("value push in stack");
-        stack.pop();
-        System.out.println("top value of stack is removed");
         System.out.println("top element of the stack is ->"+stack.top());
         System.out.println("min value inside the stack is ->" + stack.getMin());
+        stack.pop();
+        System.out.println("top value of stack is removed");
         System.out.println();
 
 
