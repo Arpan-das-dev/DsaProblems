@@ -1,8 +1,5 @@
 import BinarySearch.SearchInRotatedSortedArray;
-import DynamicProgramming.ClimbStairs;
-import DynamicProgramming.DecodeWays;
-import DynamicProgramming.HouseRobber1;
-import DynamicProgramming.WordBreak;
+import DynamicProgramming.*;
 import Graphs.MaxAreaOfIsland;
 import Hashing.*;
 import Stack.DailyTemperatures;
@@ -124,6 +121,11 @@ public class Main {
         System.out.println("min value inside the stack is ->" + stack.getMin());
         stack.pop();
         System.out.println("top value of stack is removed");
+        System.out.println();
+
+        HouseRobber2 robber2 = new HouseRobber2();
+        System.out.println("12/01/2026 solved to rob houses in circular position");
+        System.out.println(robber2.rob(new int[] {1,2,3,1}));
         System.out.println();
 
 
