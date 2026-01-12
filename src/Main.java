@@ -3,6 +3,7 @@ import BinarySearch.SearchInRotatedSortedArray;
 import DynamicProgramming.*;
 import Graphs.MaxAreaOfIsland;
 import Hashing.*;
+import SlidingWindow.BuyAndSellStocks;
 import Stack.DailyTemperatures;
 import Stack.MinStack;
 import Stack.ValidParenthesis;
@@ -132,6 +133,12 @@ public class Main {
         KokoEatingBananas bananas = new KokoEatingBananas();
         System.out.println("12/01/2026 solved min time needed for coco to eat the banana in certain time");
         System.out.println(bananas.minEatingSpeed(new int[] {30,11,23,4,20}, 6));
+        System.out.println();
+
+        BuyAndSellStocks stocks = new BuyAndSellStocks();
+        System.out.println("12/01/2026 solved to find max profit we can achieve");
+        System.out.println(stocks.maxProfitBrute(new int[] {7,1,5,3,6,4}));
+        System.out.println(stocks.maxProfit(new int[] {7,1,5,3,6,4}));
         System.out.println();
     }
 }
