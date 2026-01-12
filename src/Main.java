@@ -1,3 +1,4 @@
+import BinarySearch.KokoEatingBananas;
 import BinarySearch.SearchInRotatedSortedArray;
 import DynamicProgramming.*;
 import Graphs.MaxAreaOfIsland;
@@ -128,6 +129,9 @@ public class Main {
         System.out.println(robber2.rob(new int[] {1,2,3,1}));
         System.out.println();
 
-
+        KokoEatingBananas bananas = new KokoEatingBananas();
+        System.out.println("12/01/2026 solved min time needed for coco to eat the banana in certain time");
+        System.out.println(bananas.minEatingSpeed(new int[] {30,11,23,4,20}, 6));
+        System.out.println();
     }
 }
