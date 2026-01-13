@@ -140,5 +140,10 @@ public class Main {
         System.out.println(stocks.maxProfitBrute(new int[] {7,1,5,3,6,4}));
         System.out.println(stocks.maxProfit(new int[] {7,1,5,3,6,4}));
         System.out.println();
+
+        CoinChange coinChange = new CoinChange();
+        System.out.println("13/01/2026 solved dp problem to find min coins need to get the amount");
+        System.out.println(coinChange.coinChange(new int[] {1,2,5},5));
+        System.out.println();
     }
 }
