@@ -4,7 +4,40 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.PriorityQueue;
 
+/**
+ * Utility class for finding the k most frequent elements in an array.
+ *
+ * <p>Given an array of integers and an integer k, return the k most frequent elements.
+ * The order of the returned elements does not matter.</p>
+ *
+ * <p><b>Approach:</b></p>
+ * <ul>
+ *   <li>First, count the frequency of each element using a HashMap.</li>
+ *   <li>Then, use a min-heap (priority queue) of size at most k to keep track of the k most frequent entries.</li>
+ *   <li>For each frequency entry, add it to the heap; if the heap size exceeds k, remove the smallest (least frequent) element.</li>
+ *   <li>Finally, extract all elements from the heap into an array and return it.</li>
+ * </ul>
+ *
+ * <p>This approach efficiently maintains only the top k frequent elements without sorting the entire frequency map.</p>
+ *
+ * <p><b>Time Complexity:</b> O(n + m log k), where n is the length of nums and m is the number of unique elements.<br>
+ * <b>Space Complexity:</b> O(m + k), for the frequency map and the priority queue.</p>
+ *
+ * @author Arpan Das
+ * @since 13/01/2026
+ */
 public class TopKElements {
+
+    /**
+     * Returns the k most frequent elements in the given array.
+     *
+     * <p>Uses a frequency map to count occurrences, then a min-heap of size k
+     * to keep only the top k frequent elements. The result is returned in any order.</p>
+     *
+     * @param nums the input array of integers
+     * @param k    the number of top frequent elements to return
+     * @return an array of length k containing the k most frequent elements, or empty array if invalid input
+     */
 
     public int[] topKFrequent(int[] nums, int k) {
         // handle edge cases
