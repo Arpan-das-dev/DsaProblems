@@ -145,5 +145,10 @@ public class Main {
         System.out.println("13/01/2026 solved dp problem to find min coins need to get the amount");
         System.out.println(coinChange.coinChange(new int[] {1,2,5},5));
         System.out.println();
+
+        TopKElements elements = new TopKElements();
+        System.out.println("13/01/2026 solved top frequent elements inside an array");
+        System.out.println(Arrays.toString(elements.topKFrequent(new int [] {1,1,1,2,2,3},2)));
+        System.out.println();
     }
 }
