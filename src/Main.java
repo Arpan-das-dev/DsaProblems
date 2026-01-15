@@ -154,5 +154,11 @@ public class Main {
         ValidAnagram anagram = new ValidAnagram();
         System.out.println("15/01/2026 solved if two string are anagrams of each other");
         System.out.println(anagram.isAnagram("anagram","nagaram"));
+        System.out.println();
+
+        MaxProductSubarray productSubarray = new MaxProductSubarray();
+        System.out.println("15/01/2026 solved max product of a sub array by using dp");
+        System.out.println(productSubarray.maxProduct(new int[] {2,3,-2,4}));
+        System.out.println();
     }
 }
