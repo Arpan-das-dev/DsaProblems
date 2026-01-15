@@ -150,5 +150,9 @@ public class Main {
         System.out.println("13/01/2026 solved top frequent elements inside an array");
         System.out.println(Arrays.toString(elements.topKFrequent(new int [] {1,1,1,2,2,3},2)));
         System.out.println();
+
+        ValidAnagram anagram = new ValidAnagram();
+        System.out.println("15/01/2026 solved if two string are anagrams of each other");
+        System.out.println(anagram.isAnagram("anagram","nagaram"));
     }
 }
