@@ -4,6 +4,7 @@ import DynamicProgramming.*;
 import Graphs.MaxAreaOfIsland;
 import Hashing.*;
 import SlidingWindow.BuyAndSellStocks;
+import SlidingWindow.LongestSubstringWithoutRepeatingCharacters;
 import Stack.DailyTemperatures;
 import Stack.MinStack;
 import Stack.ValidParenthesis;
@@ -160,5 +161,9 @@ public class Main {
         System.out.println("15/01/2026 solved max product of a sub array by using dp");
         System.out.println(productSubarray.maxProduct(new int[] {2,3,-2,4}));
         System.out.println();
+
+        LongestSubstringWithoutRepeatingCharacters characters = new LongestSubstringWithoutRepeatingCharacters();
+        System.out.println("17/01/2026 solved to find min substring with unique chars");
+        System.out.println(characters.lengthOfLongestSubstring("pwwkew"));
     }
 }
