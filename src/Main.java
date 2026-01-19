@@ -165,5 +165,11 @@ public class Main {
         LongestSubstringWithoutRepeatingCharacters characters = new LongestSubstringWithoutRepeatingCharacters();
         System.out.println("17/01/2026 solved to find min substring with unique chars");
         System.out.println(characters.lengthOfLongestSubstring("pwwkew"));
+
+        EncodeDecodeString encodeDecodeString = new EncodeDecodeString();
+        System.out.println("19/01/2026 solved to encode and and decode string");
+        System.out.println(encodeDecodeString.encode(new String[] {"Hello","World"}));
+        System.out.println(Arrays.toString(encodeDecodeString.decode(encodeDecodeString.
+                encode(new String[] {"Hello","World"}))));
     }
 }
