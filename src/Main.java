@@ -1,3 +1,4 @@
+import BackTracking.GenerateParenthesis;
 import BinarySearch.KokoEatingBananas;
 import BinarySearch.SearchInRotatedSortedArray;
 import DynamicProgramming.*;
@@ -179,5 +180,12 @@ public class Main {
         System.out.println(Arrays
                 .toString(greaterElement.nextGreaterElement(new int[]{4,1,2},new int[]{1,3,4,2})));
         System.out.println();
+
+        GenerateParenthesis generateParenthesis = new GenerateParenthesis();
+        System.out.println("20/01/2026 add back tracking solution to generate valid parenthesis");
+        System.out.println(generateParenthesis.generateParenthesis(3));
+        System.out.println();
+
+
     }
 }
