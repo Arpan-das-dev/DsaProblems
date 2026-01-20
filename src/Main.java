@@ -7,6 +7,7 @@ import SlidingWindow.BuyAndSellStocks;
 import SlidingWindow.LongestSubstringWithoutRepeatingCharacters;
 import Stack.DailyTemperatures;
 import Stack.MinStack;
+import Stack.NextGreaterElement;
 import Stack.ValidParenthesis;
 import TwoPointers.ContainerWithMostWater;
 import TwoPointers.ThreeSum;
@@ -171,5 +172,12 @@ public class Main {
         System.out.println(encodeDecodeString.encode(new String[] {"Hello","World"}));
         System.out.println(Arrays.toString(encodeDecodeString.decode(encodeDecodeString.
                 encode(new String[] {"Hello","World"}))));
+        System.out.println();
+
+        NextGreaterElement greaterElement = new NextGreaterElement();
+        System.out.println("20/01/2026 find solution to find next bigger element for each item");
+        System.out.println(Arrays
+                .toString(greaterElement.nextGreaterElement(new int[]{4,1,2},new int[]{1,3,4,2})));
+        System.out.println();
     }
 }
