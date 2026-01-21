@@ -1,4 +1,5 @@
 import BackTracking.GenerateParenthesis;
+import BinarySearch.FindMinInRotatedSortedArray;
 import BinarySearch.KokoEatingBananas;
 import BinarySearch.SearchInRotatedSortedArray;
 import DynamicProgramming.*;
@@ -186,6 +187,9 @@ public class Main {
         System.out.println(generateParenthesis.generateParenthesis(3));
         System.out.println();
 
-
+        FindMinInRotatedSortedArray minInRotatedSortedArray = new FindMinInRotatedSortedArray();
+        System.out.println("20/01/2026 add method solution with binary search to find min in an sorted array (rotated)");
+        System.out.println(minInRotatedSortedArray.findMin(new int[] {4,5,6,7,0,1,2,3}));
+        System.out.println();
     }
 }
