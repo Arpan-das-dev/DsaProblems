@@ -6,6 +6,7 @@ import DynamicProgramming.*;
 import Graphs.MaxAreaOfIsland;
 import Hashing.*;
 import SlidingWindow.BuyAndSellStocks;
+import SlidingWindow.LongestRepeatingCharReplacement;
 import SlidingWindow.LongestSubstringWithoutRepeatingCharacters;
 import Stack.DailyTemperatures;
 import Stack.MinStack;
@@ -190,6 +191,11 @@ public class Main {
         FindMinInRotatedSortedArray minInRotatedSortedArray = new FindMinInRotatedSortedArray();
         System.out.println("20/01/2026 add method solution with binary search to find min in an sorted array (rotated)");
         System.out.println(minInRotatedSortedArray.findMin(new int[] {4,5,6,7,0,1,2,3}));
+        System.out.println();
+
+        LongestRepeatingCharReplacement charReplacement = new LongestRepeatingCharReplacement();
+        System.out.println("20/01/2026 add sliding window solution to find char replacement");
+        System.out.println(charReplacement.characterReplacement("ABBA",2));
         System.out.println();
     }
 }
