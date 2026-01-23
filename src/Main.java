@@ -4,6 +4,7 @@ import BinarySearch.KokoEatingBananas;
 import BinarySearch.SearchInRotatedSortedArray;
 import DynamicProgramming.*;
 import Graphs.MaxAreaOfIsland;
+import Greedy.CarFleet;
 import Hashing.*;
 import SlidingWindow.BuyAndSellStocks;
 import SlidingWindow.LongestRepeatingCharReplacement;
@@ -196,6 +197,11 @@ public class Main {
         LongestRepeatingCharReplacement charReplacement = new LongestRepeatingCharReplacement();
         System.out.println("20/01/2026 add sliding window solution to find char replacement");
         System.out.println(charReplacement.characterReplacement("ABBA",2));
+        System.out.println();
+
+        CarFleet fleet = new CarFleet();
+        System.out.println("23/01/2026 add greedy solution to find car fleets count");
+        System.out.println(fleet.carFleet(12, new int[] {10,8,0,5,3}, new int[] {2,4,1,1,3}));
         System.out.println();
     }
 }
