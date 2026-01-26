@@ -6,6 +6,7 @@ import DynamicProgramming.*;
 import Graphs.MaxAreaOfIsland;
 import Greedy.CarFleet;
 import Hashing.*;
+import Mathematical.MissingNumber;
 import SlidingWindow.BuyAndSellStocks;
 import SlidingWindow.LongestRepeatingCharReplacement;
 import SlidingWindow.LongestSubstringWithoutRepeatingCharacters;
@@ -202,6 +203,11 @@ public class Main {
         CarFleet fleet = new CarFleet();
         System.out.println("23/01/2026 add greedy solution to find car fleets count");
         System.out.println(fleet.carFleet(12, new int[] {10,8,0,5,3}, new int[] {2,4,1,1,3}));
+        System.out.println();
+
+        MissingNumber missingNumber = new MissingNumber();
+        System.out.println("26/01/2026 add mathematical solution to find a missing number");
+        System.out.println(missingNumber.missingNumber(new int[] {3,0,1}));
         System.out.println();
     }
 }
