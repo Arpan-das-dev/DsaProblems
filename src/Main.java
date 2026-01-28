@@ -5,6 +5,7 @@ import BinarySearch.KokoEatingBananas;
 import BinarySearch.SearchInRotatedSortedArray;
 import DynamicProgramming.*;
 import Graphs.MaxAreaOfIsland;
+import Graphs.PacificAtlanticWaterFlow;
 import Greedy.CarFleet;
 import Hashing.*;
 import Mathematical.MissingNumber;
@@ -216,6 +217,15 @@ public class Main {
         System.out.println(combinationSum.combinationSum(new int[]{2,2,3},8));
         System.out.println();
 
-
+        PacificAtlanticWaterFlow waterFlow = new PacificAtlanticWaterFlow();
+        System.out.println("27/01/2026 add dfs solution for pacific atlantic water flow");
+        System.out.println(waterFlow.pacificAtlantic(new int[][] {
+                {1,2,2,3,5},
+                {3,2,3,4,4},
+                {2,4,5,3,1},
+                {6,7,1,4,5},
+                {5,1,1,2,4}
+        }));
+        System.out.println();
     }
 }
