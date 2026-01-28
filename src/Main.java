@@ -1,3 +1,4 @@
+import BackTracking.CombinationSum;
 import BackTracking.GenerateParenthesis;
 import BinarySearch.FindMinInRotatedSortedArray;
 import BinarySearch.KokoEatingBananas;
@@ -209,5 +210,12 @@ public class Main {
         System.out.println("26/01/2026 add mathematical solution to find a missing number");
         System.out.println(missingNumber.missingNumber(new int[] {3,0,1}));
         System.out.println();
+
+        CombinationSum combinationSum = new CombinationSum();
+        System.out.println("27/01/2026 add combination sum with backtracking");
+        System.out.println(combinationSum.combinationSum(new int[]{2,2,3},8));
+        System.out.println();
+
+
     }
 }
