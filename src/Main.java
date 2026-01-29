@@ -227,5 +227,10 @@ public class Main {
                 {5,1,1,2,4}
         }));
         System.out.println();
+
+        MaxSumSubArray sumSubArray = new MaxSumSubArray();
+        System.out.println("28/01/2026 add dp solution for max sum for a subarray");
+        System.out.println(sumSubArray.maxSubArray(new int[]{-2,1,-3,4,-1,2,1,-5,4}));
+        System.out.println();
     }
 }
