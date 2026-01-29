@@ -1,4 +1,4 @@
-package TwoPointers;
+package Heaps;
 
 import java.util.PriorityQueue;
 
