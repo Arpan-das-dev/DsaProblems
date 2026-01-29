@@ -5,6 +5,7 @@ import BinarySearch.KokoEatingBananas;
 import BinarySearch.SearchInRotatedSortedArray;
 import DynamicProgramming.*;
 import Graphs.MaxAreaOfIsland;
+import Graphs.NumberOfIsland;
 import Graphs.PacificAtlanticWaterFlow;
 import Greedy.CarFleet;
 import Hashing.*;
@@ -231,6 +232,16 @@ public class Main {
         MaxSumSubArray sumSubArray = new MaxSumSubArray();
         System.out.println("28/01/2026 add dp solution for max sum for a subarray");
         System.out.println(sumSubArray.maxSubArray(new int[]{-2,1,-3,4,-1,2,1,-5,4}));
+        System.out.println();
+
+        NumberOfIsland ofIsland = new NumberOfIsland();
+        System.out.println("28/01/2026 add recursive dp solution for count max no of island");
+        System.out.println(ofIsland.numIslands(new char[][] {
+                {'1','1','0','0','0'},
+                {'1','1','0','0','0'},
+                {'0','0','1','0','0'},
+                {'0','0','0','1','1'}
+        }));
         System.out.println();
     }
 }
