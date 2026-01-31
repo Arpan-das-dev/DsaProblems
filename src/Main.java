@@ -9,6 +9,7 @@ import Graphs.MaxAreaOfIsland;
 import Graphs.NumberOfIsland;
 import Graphs.PacificAtlanticWaterFlow;
 import Greedy.CarFleet;
+import Greedy.NonOverLappingIntervals;
 import Hashing.*;
 import Mathematical.MissingNumber;
 import SlidingWindow.BuyAndSellStocks;
@@ -248,6 +249,11 @@ public class Main {
         CourseSchedule schedule = new CourseSchedule();
         System.out.println("29/01/2026 add solution with tropological sorting method");
         System.out.println(schedule.canFinish(4, new int[][] { {1, 0},{2, 1},{3, 2} }));
+        System.out.println();
+
+        NonOverLappingIntervals nonOverLappingIntervals = new NonOverLappingIntervals();
+        System.out.println("29/01/2026 add greedy solution to find no of intervals need to remove");
+        System.out.println(nonOverLappingIntervals.eraseOverlapIntervals(new int[][] {{1,2},{2,3},{3,4},{1,3}}));
         System.out.println();
     }
 }
