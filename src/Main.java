@@ -4,6 +4,7 @@ import BinarySearch.FindMinInRotatedSortedArray;
 import BinarySearch.KokoEatingBananas;
 import BinarySearch.SearchInRotatedSortedArray;
 import DynamicProgramming.*;
+import Graphs.CourseSchedule;
 import Graphs.MaxAreaOfIsland;
 import Graphs.NumberOfIsland;
 import Graphs.PacificAtlanticWaterFlow;
@@ -242,6 +243,11 @@ public class Main {
                 {'0','0','1','0','0'},
                 {'0','0','0','1','1'}
         }));
+        System.out.println();
+
+        CourseSchedule schedule = new CourseSchedule();
+        System.out.println("29/01/2026 add solution with tropological sorting method");
+        System.out.println(schedule.canFinish(4, new int[][] { {1, 0},{2, 1},{3, 2} }));
         System.out.println();
     }
 }
