@@ -12,6 +12,7 @@ import Greedy.CarFleet;
 import Greedy.NonOverLappingIntervals;
 import Hashing.*;
 import Mathematical.MissingNumber;
+import Mathematical.RotateImage;
 import SlidingWindow.BuyAndSellStocks;
 import SlidingWindow.LongestRepeatingCharReplacement;
 import SlidingWindow.LongestSubstringWithoutRepeatingCharacters;
@@ -254,6 +255,11 @@ public class Main {
         NonOverLappingIntervals nonOverLappingIntervals = new NonOverLappingIntervals();
         System.out.println("29/01/2026 add greedy solution to find no of intervals need to remove");
         System.out.println(nonOverLappingIntervals.eraseOverlapIntervals(new int[][] {{1,2},{2,3},{3,4},{1,3}}));
+        System.out.println();
+
+        RotateImage rotateImage = new RotateImage();
+        System.out.println("29/01/2026 add brute and optimal solution to rotate image");
+        rotateImage.rotate(new int[][] {{1,2,3}, {4,5,6},{7,8,9}});
         System.out.println();
     }
 }
