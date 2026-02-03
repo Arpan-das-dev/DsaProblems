@@ -2,6 +2,7 @@ import BackTracking.CombinationSum;
 import BackTracking.GenerateParenthesis;
 import BinarySearch.FindMinInRotatedSortedArray;
 import BinarySearch.KokoEatingBananas;
+import BinarySearch.Number1Bits;
 import BinarySearch.SearchInRotatedSortedArray;
 import DynamicProgramming.*;
 import Graphs.CourseSchedule;
@@ -12,7 +13,7 @@ import Greedy.CarFleet;
 import Greedy.NonOverLappingIntervals;
 import Hashing.*;
 import Mathematical.MissingNumber;
-import Mathematical.RotateImage;
+import Matrix.RotateImage;
 import SlidingWindow.BuyAndSellStocks;
 import SlidingWindow.LongestRepeatingCharReplacement;
 import SlidingWindow.LongestSubstringWithoutRepeatingCharacters;
@@ -260,6 +261,11 @@ public class Main {
         RotateImage rotateImage = new RotateImage();
         System.out.println("29/01/2026 add brute and optimal solution to rotate image");
         rotateImage.rotate(new int[][] {{1,2,3}, {4,5,6},{7,8,9}});
+        System.out.println();
+
+        Number1Bits bits = new Number1Bits();
+        System.out.println("29/01/2026 add both optimal and brute force solution for count 1 bits");
+        System.out.println(bits.hammingWeight(7));
         System.out.println();
     }
 }
