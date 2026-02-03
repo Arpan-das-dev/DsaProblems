@@ -2,7 +2,7 @@ import BackTracking.CombinationSum;
 import BackTracking.GenerateParenthesis;
 import BinarySearch.FindMinInRotatedSortedArray;
 import BinarySearch.KokoEatingBananas;
-import BinarySearch.Number1Bits;
+import BitManipulation.Number1Bits;
 import BinarySearch.SearchInRotatedSortedArray;
 import DynamicProgramming.*;
 import Graphs.CourseSchedule;
@@ -10,6 +10,7 @@ import Graphs.MaxAreaOfIsland;
 import Graphs.NumberOfIsland;
 import Graphs.PacificAtlanticWaterFlow;
 import Greedy.CarFleet;
+import Greedy.JumpGame1;
 import Greedy.NonOverLappingIntervals;
 import Hashing.*;
 import Mathematical.MissingNumber;
@@ -264,8 +265,13 @@ public class Main {
         System.out.println();
 
         Number1Bits bits = new Number1Bits();
-        System.out.println("29/01/2026 add both optimal and brute force solution for count 1 bits");
+        System.out.println("30/01/2026 add both optimal and brute force solution for count 1 bits");
         System.out.println(bits.hammingWeight(7));
+        System.out.println();
+
+        JumpGame1 game1 = new JumpGame1();
+        System.out.println("30/01/2026 add greedy solution to find if can reach last step");
+        System.out.println(game1.canJump(new int[] {3,2,1,0,4}));
         System.out.println();
     }
 }
