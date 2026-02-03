@@ -10,6 +10,7 @@ import Graphs.MaxAreaOfIsland;
 import Graphs.NumberOfIsland;
 import Graphs.PacificAtlanticWaterFlow;
 import Greedy.CarFleet;
+import Greedy.GasStation;
 import Greedy.JumpGame1;
 import Greedy.NonOverLappingIntervals;
 import Hashing.*;
@@ -272,6 +273,11 @@ public class Main {
         JumpGame1 game1 = new JumpGame1();
         System.out.println("30/01/2026 add greedy solution to find if can reach last step");
         System.out.println(game1.canJump(new int[] {3,2,1,0,4}));
+        System.out.println();
+
+        GasStation station = new GasStation();
+        System.out.println("30/01/2026 add greedy solution for gas station");
+        System.out.println(station.canCompleteCircuit(new int[] {1,2,3,4,5}, new int[] {3,4,5,1,2}));
         System.out.println();
     }
 }
