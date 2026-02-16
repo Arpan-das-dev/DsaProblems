@@ -4,6 +4,7 @@ import BinarySearch.FindMinInRotatedSortedArray;
 import BinarySearch.KokoEatingBananas;
 import BitManipulation.Number1Bits;
 import BinarySearch.SearchInRotatedSortedArray;
+import BitManipulation.ReverseBits;
 import DynamicProgramming.*;
 import Graphs.CourseSchedule;
 import Graphs.MaxAreaOfIsland;
@@ -278,6 +279,11 @@ public class Main {
         GasStation station = new GasStation();
         System.out.println("30/01/2026 add greedy solution for gas station");
         System.out.println(station.canCompleteCircuit(new int[] {1,2,3,4,5}, new int[] {3,4,5,1,2}));
+        System.out.println();
+
+        ReverseBits reverseBits = new ReverseBits();
+        System.out.println("16/02/2026 add bit manipulation solution for reverse a bit");
+        System.out.println(reverseBits.reverseBits(7));
         System.out.println();
     }
 }
