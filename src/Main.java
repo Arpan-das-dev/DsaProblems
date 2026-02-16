@@ -17,6 +17,7 @@ import Greedy.NonOverLappingIntervals;
 import Hashing.*;
 import Mathematical.MissingNumber;
 import Matrix.RotateImage;
+import Matrix.SpiralMatrix;
 import SlidingWindow.BuyAndSellStocks;
 import SlidingWindow.LongestRepeatingCharReplacement;
 import SlidingWindow.LongestSubstringWithoutRepeatingCharacters;
@@ -284,6 +285,13 @@ public class Main {
         ReverseBits reverseBits = new ReverseBits();
         System.out.println("16/02/2026 add bit manipulation solution for reverse a bit");
         System.out.println(reverseBits.reverseBits(7));
+        System.out.println("--");
+        System.out.println(reverseBits.reverseBitsBitSafeApproach(7));
+        System.out.println();
+
+        SpiralMatrix spiralMatrix = new SpiralMatrix();
+        System.out.println("16/02/2026 add solution for spiral matrix");
+        System.out.println(spiralMatrix.spiralOrder(new int[][] {{1,2,3},{4,5,6},{7,8,9}}));
         System.out.println();
     }
 }
