@@ -1,5 +1,6 @@
 import BackTracking.CombinationSum;
 import BackTracking.GenerateParenthesis;
+import BackTracking.WordSearch;
 import BinarySearch.FindMinInRotatedSortedArray;
 import BinarySearch.KokoEatingBananas;
 import BitManipulation.Number1Bits;
@@ -292,6 +293,13 @@ public class Main {
         SpiralMatrix spiralMatrix = new SpiralMatrix();
         System.out.println("16/02/2026 add solution for spiral matrix");
         System.out.println(spiralMatrix.spiralOrder(new int[][] {{1,2,3},{4,5,6},{7,8,9}}));
+        System.out.println();
+
+        WordSearch wordSearch = new WordSearch();
+        System.out.println("16/02/2026 add backtracking dfs solution to find word");
+        System.out.println(wordSearch.exist(new char[][] {{'A','B','C','E'},
+                                                          {'S','F','C','S'},
+                                                          {'A','D','E','E'}},"ABCCED"));
         System.out.println();
     }
 }
