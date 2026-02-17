@@ -11,10 +11,7 @@ import Graphs.CourseSchedule;
 import Graphs.MaxAreaOfIsland;
 import Graphs.NumberOfIsland;
 import Graphs.PacificAtlanticWaterFlow;
-import Greedy.CarFleet;
-import Greedy.GasStation;
-import Greedy.JumpGame1;
-import Greedy.NonOverLappingIntervals;
+import Greedy.*;
 import Hashing.*;
 import Mathematical.MissingNumber;
 import Matrix.RotateImage;
@@ -300,6 +297,11 @@ public class Main {
         System.out.println(wordSearch.exist(new char[][] {{'A','B','C','E'},
                                                           {'S','F','C','S'},
                                                           {'A','D','E','E'}},"ABCCED"));
+        System.out.println();
+
+        MergeIntervals mergeIntervals = new MergeIntervals();
+        System.out.println("17/02/2026 add greedy to solution to merge intervals");
+        System.out.println(Arrays.deepToString(mergeIntervals.merge(new int[][]{{1,4},{4,5}})));
         System.out.println();
     }
 }
