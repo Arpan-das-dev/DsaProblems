@@ -3,6 +3,7 @@ import BackTracking.GenerateParenthesis;
 import BackTracking.WordSearch;
 import BinarySearch.FindMinInRotatedSortedArray;
 import BinarySearch.KokoEatingBananas;
+import BitManipulation.CountBits;
 import BitManipulation.Number1Bits;
 import BinarySearch.SearchInRotatedSortedArray;
 import BitManipulation.ReverseBits;
@@ -302,6 +303,11 @@ public class Main {
         MergeIntervals mergeIntervals = new MergeIntervals();
         System.out.println("17/02/2026 add greedy to solution to merge intervals");
         System.out.println(Arrays.deepToString(mergeIntervals.merge(new int[][]{{1,4},{4,5}})));
+        System.out.println();
+
+        CountBits countBits = new CountBits();
+        System.out.println("17/02/2026 add bit manipulation solution to count bits");
+        System.out.println(Arrays.toString(countBits.countBits(5)));
         System.out.println();
     }
 }
