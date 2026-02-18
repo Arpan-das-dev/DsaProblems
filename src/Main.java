@@ -7,6 +7,7 @@ import BitManipulation.CountBits;
 import BitManipulation.Number1Bits;
 import BinarySearch.SearchInRotatedSortedArray;
 import BitManipulation.ReverseBits;
+import BitManipulation.SumOfTwoIntegers;
 import DynamicProgramming.*;
 import Graphs.CourseSchedule;
 import Graphs.MaxAreaOfIsland;
@@ -315,6 +316,9 @@ public class Main {
         System.out.println(rooms1.canAttend(new int[][] {{2,4},{7,10},{4,8}}));
         System.out.println();
 
-
+        SumOfTwoIntegers twoIntegers = new SumOfTwoIntegers();
+        System.out.println("18/02/20206 add partial sum with carry bit manipulation to find sum");
+        System.out.println(twoIntegers.getSum(5,3));
+        System.out.println();
     }
 }
