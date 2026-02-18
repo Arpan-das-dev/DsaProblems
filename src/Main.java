@@ -309,5 +309,12 @@ public class Main {
         System.out.println("17/02/2026 add bit manipulation solution to count bits");
         System.out.println(Arrays.toString(countBits.countBits(5)));
         System.out.println();
+
+        MeetingRooms1 rooms1 = new MeetingRooms1();
+        System.out.println("18/02/2026 add greedy solution to find if one can attend a meeting");
+        System.out.println(rooms1.canAttend(new int[][] {{2,4},{7,10},{4,8}}));
+        System.out.println();
+
+
     }
 }
