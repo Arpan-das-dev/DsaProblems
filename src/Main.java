@@ -21,6 +21,7 @@ import Matrix.SpiralMatrix;
 import SlidingWindow.BuyAndSellStocks;
 import SlidingWindow.LongestRepeatingCharReplacement;
 import SlidingWindow.LongestSubstringWithoutRepeatingCharacters;
+import SlidingWindow.MinWindowSubString;
 import Stack.DailyTemperatures;
 import Stack.MinStack;
 import Stack.NextGreaterElement;
@@ -319,6 +320,11 @@ public class Main {
         SumOfTwoIntegers twoIntegers = new SumOfTwoIntegers();
         System.out.println("18/02/20206 add partial sum with carry bit manipulation to find sum");
         System.out.println(twoIntegers.getSum(5,3));
+        System.out.println();
+
+        MinWindowSubString windowSubString = new MinWindowSubString();
+        System.out.println("18/02/2026 add solution to find min window ");
+        System.out.println(windowSubString.minWindow("ADOBECODEBANC","ABC"));
         System.out.println();
     }
 }
