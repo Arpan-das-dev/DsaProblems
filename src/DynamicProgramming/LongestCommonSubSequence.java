@@ -1,4 +1,24 @@
 package DynamicProgramming;
 
+
 public class LongestCommonSubSequence {
+    public int longestCommonSubsequence(String text1, String text2) {
+        if(text1.equals(text2)) return text1.length();
+
+        int r = text1.length();
+        int c = text2.length();
+        int [][] dp = new int[r+1][c+1];
+
+        for (int i = 1; i <= r; i++) {
+            for (int j = 1; j <= c; j++) {
+                if(text1.charAt(i-1) == text2.charAt(j-1)){
+                    dp[i][j] = 1 + dp[i-1][j-1];
+                }
+                else {
+                    dp[i][j] = Math.max(dp[i-1][j],dp[i][j-1]);
+                }
+            }
+        }
+        return dp[r][c];
+    }
 }
