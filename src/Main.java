@@ -340,5 +340,10 @@ public class Main {
                 )
         );
         System.out.println();
+
+        LongestCommonSubSequence subSequence = new LongestCommonSubSequence();
+        System.out.println("19/02/2026 add dp solution to find common subsequence");
+        System.out.println(subSequence.longestCommonSubsequence("abcdef","abc"));
+        System.out.println();
     }
 }
