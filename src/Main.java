@@ -1,6 +1,7 @@
 import BackTracking.CombinationSum;
 import BackTracking.GenerateParenthesis;
 import BackTracking.WordSearch;
+import BackTracking.WordSearch2;
 import BinarySearch.FindMinInRotatedSortedArray;
 import BinarySearch.KokoEatingBananas;
 import BitManipulation.CountBits;
@@ -325,6 +326,19 @@ public class Main {
         MinWindowSubString windowSubString = new MinWindowSubString();
         System.out.println("18/02/2026 add solution to find min window ");
         System.out.println(windowSubString.minWindow("ADOBECODEBANC","ABC"));
+        System.out.println();
+
+        WordSearch2 search2 = new WordSearch2();
+        System.out.println("19/02/26 add solution to find words from a 2d array");
+        System.out.println(search2.findWords(new char[][] {
+                                {'o','a','a','n'},
+                                {'e','t','a','e'},
+                                {'i','h','k','r'},
+                                {'i','f','l','v'}
+                        },
+                        new String[] {"oath","pea","eat","rain"}
+                )
+        );
         System.out.println();
     }
 }
