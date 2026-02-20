@@ -10,10 +10,7 @@ import BinarySearch.SearchInRotatedSortedArray;
 import BitManipulation.ReverseBits;
 import BitManipulation.SumOfTwoIntegers;
 import DynamicProgramming.*;
-import Graphs.CourseSchedule;
-import Graphs.MaxAreaOfIsland;
-import Graphs.NumberOfIsland;
-import Graphs.PacificAtlanticWaterFlow;
+import Graphs.*;
 import Greedy.*;
 import Hashing.*;
 import Mathematical.MissingNumber;
@@ -32,6 +29,7 @@ import TwoPointers.ThreeSum;
 import TwoPointers.TrapRainWater;
 import TwoPointers.ValidPalindrome;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
@@ -344,6 +342,14 @@ public class Main {
         LongestCommonSubSequence subSequence = new LongestCommonSubSequence();
         System.out.println("19/02/2026 add dp solution to find common subsequence");
         System.out.println(subSequence.longestCommonSubsequence("abcdef","abc"));
+        System.out.println();
+
+        GraphIsTree isTree = new GraphIsTree();
+        System.out.println("20/02/2026 add dfs solution to check if a graph is tree");
+        System.out.println(isTree.isTree(4,3,new ArrayList<>(Arrays.asList(
+                new ArrayList<>(Arrays.asList(0, 1)),
+                new ArrayList<>(Arrays.asList(0, 2)),
+                new ArrayList<>(Arrays.asList(2, 3))))));
         System.out.println();
     }
 }
