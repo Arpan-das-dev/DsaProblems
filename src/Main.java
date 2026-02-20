@@ -24,6 +24,7 @@ import Stack.DailyTemperatures;
 import Stack.MinStack;
 import Stack.NextGreaterElement;
 import Stack.ValidParenthesis;
+import Trees.ConstructBinaryTree;
 import TwoPointers.ContainerWithMostWater;
 import TwoPointers.ThreeSum;
 import TwoPointers.TrapRainWater;
@@ -355,6 +356,11 @@ public class Main {
         MeetingRooms2 rooms2 = new MeetingRooms2();
         System.out.println("20/02/2026 add greedy solution to find min room to run overlapping meetings");
         System.out.println(rooms2.minMeetingRooms(new int[]{2,9,6},new int[] {4,12,16}));
+        System.out.println();
+
+        ConstructBinaryTree binaryTree = new ConstructBinaryTree();
+        System.out.println("20/02/2026 add recursive split solution to create original tree");
+        System.out.println(binaryTree.buildTree(new int[]{3,9,20,15,7},new int[] {9,3,15,20,7}));
         System.out.println();
     }
 }
