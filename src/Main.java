@@ -351,5 +351,10 @@ public class Main {
                 new ArrayList<>(Arrays.asList(0, 2)),
                 new ArrayList<>(Arrays.asList(2, 3))))));
         System.out.println();
+
+        MeetingRooms2 rooms2 = new MeetingRooms2();
+        System.out.println("20/02/2026 add greedy solution to find min room to run overlapping meetings");
+        System.out.println(rooms2.minMeetingRooms(new int[]{2,9,6},new int[] {4,12,16}));
+        System.out.println();
     }
 }
