@@ -362,5 +362,10 @@ public class Main {
         System.out.println("20/02/2026 add recursive split solution to create original tree");
         System.out.println(binaryTree.buildTree(new int[]{3,9,20,15,7},new int[] {9,3,15,20,7}));
         System.out.println();
+
+        InsertIntervals insertIntervals = new InsertIntervals();
+        System.out.println("21/02/2026 add greedy solution to insert intervals");
+        System.out.println(Arrays.deepToString(insertIntervals.insert(new int[][]{{1,3},{6,9}},new int[]{2,5})));
+        System.out.println();
     }
 }
