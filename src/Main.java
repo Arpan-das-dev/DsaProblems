@@ -367,5 +367,10 @@ public class Main {
         System.out.println("21/02/2026 add greedy solution to insert intervals");
         System.out.println(Arrays.deepToString(insertIntervals.insert(new int[][]{{1,3},{6,9}},new int[]{2,5})));
         System.out.println();
+
+        AlienDictionary dictionary = new AlienDictionary();
+        System.out.println("22/02/2026 add topological sort technique with graph to solve alien dictionary");
+        System.out.println(dictionary.findOrder(new String[] {"baa", "abcd", "abca", "cab", "cad"}));
+        System.out.println();
     }
 }
