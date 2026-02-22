@@ -4,11 +4,8 @@ import BackTracking.WordSearch;
 import BackTracking.WordSearch2;
 import BinarySearch.FindMinInRotatedSortedArray;
 import BinarySearch.KokoEatingBananas;
-import BitManipulation.CountBits;
-import BitManipulation.Number1Bits;
+import BitManipulation.*;
 import BinarySearch.SearchInRotatedSortedArray;
-import BitManipulation.ReverseBits;
-import BitManipulation.SumOfTwoIntegers;
 import DynamicProgramming.*;
 import Graphs.*;
 import Greedy.*;
@@ -371,6 +368,11 @@ public class Main {
         AlienDictionary dictionary = new AlienDictionary();
         System.out.println("22/02/2026 add topological sort technique with graph to solve alien dictionary");
         System.out.println(dictionary.findOrder(new String[] {"baa", "abcd", "abca", "cab", "cad"}));
+        System.out.println();
+
+        BinaryGap gap = new BinaryGap();
+        System.out.println("22/02/2026 add solution with right shift bit manipulation to find max distance between 1s");
+        System.out.println(gap.binaryGap(22));
         System.out.println();
     }
 }
