@@ -4,6 +4,7 @@ import BackTracking.WordSearch;
 import BackTracking.WordSearch2;
 import BinarySearch.FindMinInRotatedSortedArray;
 import BinarySearch.KokoEatingBananas;
+import BinarySearch.MedianOfSortedArrays;
 import BitManipulation.*;
 import BinarySearch.SearchInRotatedSortedArray;
 import DynamicProgramming.*;
@@ -373,6 +374,11 @@ public class Main {
         BinaryGap gap = new BinaryGap();
         System.out.println("22/02/2026 add solution with right shift bit manipulation to find max distance between 1s");
         System.out.println(gap.binaryGap(22));
+        System.out.println();
+
+        MedianOfSortedArrays sortedArrays = new MedianOfSortedArrays();
+        System.out.println("23/02/2026 add binary search solution to find median of 2 sorted arrays");
+        System.out.println(sortedArrays.findMedianSortedArrays(new int[]{1,4,7,10,12}, new int[]{2,3,5,6,8,9,11}));
         System.out.println();
     }
 }
