@@ -386,5 +386,10 @@ public class Main {
         System.out.println("23/02/2026 add math based reverse integer solution");
         System.out.println(reverseInteger.reverse(123));
         System.out.println();
+
+        StringHasKbinaryCombination hasKbinaryCombination = new StringHasKbinaryCombination();
+        System.out.println("23/02/2026 add bit manipulation to check if all k no of combination present in a string");
+        System.out.println(hasKbinaryCombination.hasAllCodes("0110",2));
+        System.out.println();
     }
 }
