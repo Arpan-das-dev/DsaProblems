@@ -12,6 +12,7 @@ import Graphs.*;
 import Greedy.*;
 import Hashing.*;
 import Mathematical.MissingNumber;
+import Mathematical.ReverseInteger;
 import Matrix.RotateImage;
 import Matrix.SpiralMatrix;
 import SlidingWindow.BuyAndSellStocks;
@@ -379,6 +380,11 @@ public class Main {
         MedianOfSortedArrays sortedArrays = new MedianOfSortedArrays();
         System.out.println("23/02/2026 add binary search solution to find median of 2 sorted arrays");
         System.out.println(sortedArrays.findMedianSortedArrays(new int[]{1,4,7,10,12}, new int[]{2,3,5,6,8,9,11}));
+        System.out.println();
+
+        ReverseInteger reverseInteger = new ReverseInteger();
+        System.out.println("23/02/2026 add math based reverse integer solution");
+        System.out.println(reverseInteger.reverse(123));
         System.out.println();
     }
 }
