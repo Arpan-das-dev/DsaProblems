@@ -24,15 +24,13 @@ import java.util.Set;
  * @author Arpan Das
  * @since 23/02/2026
  */
-import java.util.HashSet;
-import java.util.Set;
 
 public class StringHasKbinaryCombination {
 
     /**
      * Returns true if s contains all 2^k binary combinations of length k.
      *
-     * <p>Uses sliding window to check all k-length substrings against required set.</p>
+     * <p>Uses sliding window to check all k-length substrings against required to be set.</p>
      *
      * <p><b>Examples:</b></p>
      * <pre>
@@ -74,7 +72,6 @@ public class StringHasKbinaryCombination {
                 return true;
             }
         }
-
         return false;
     }
 }
