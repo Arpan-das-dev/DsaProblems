@@ -14,6 +14,7 @@ import Hashing.*;
 import Mathematical.MissingNumber;
 import Mathematical.ReverseInteger;
 import Matrix.RotateImage;
+import Matrix.RottingOranges;
 import Matrix.SpiralMatrix;
 import SlidingWindow.BuyAndSellStocks;
 import SlidingWindow.LongestRepeatingCharReplacement;
@@ -400,6 +401,11 @@ public class Main {
         StepsToMakeOneBit makeOneBit = new StepsToMakeOneBit();
         System.out.println("26/02/2026 add solution to count how many steps need to make a binary as one bit");
         System.out.println(makeOneBit.numSteps("1011"));
+        System.out.println();
+
+        RottingOranges oranges = new RottingOranges();
+        System.out.println("26/02/2026 add solution to find min time required so the all oranges are rotten");
+        System.out.println(oranges.orangesRotting(new int[][] {{2,1,1},{1,1,0},{0,1,1}}));
         System.out.println();
     }
 }
