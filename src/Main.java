@@ -391,5 +391,10 @@ public class Main {
         System.out.println("23/02/2026 add bit manipulation to check if all k no of combination present in a string");
         System.out.println(hasKbinaryCombination.hasAllCodes("0110",2));
         System.out.println();
+
+        SortByNumberOfBits numberOfBits = new SortByNumberOfBits();
+        System.out.println("25/02/2026 add solution to sort numbers based on bits");
+        System.out.println(Arrays.toString(numberOfBits.sortByBits(new int[]{1, 4, 6, 3, 8, 9, 3})));
+        System.out.println();
     }
 }
