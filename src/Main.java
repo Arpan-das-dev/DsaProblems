@@ -407,5 +407,10 @@ public class Main {
         System.out.println("26/02/2026 add solution to find min time required so the all oranges are rotten");
         System.out.println(oranges.orangesRotting(new int[][] {{2,1,1},{1,1,0},{0,1,1}}));
         System.out.println();
+
+        CoinChange2 coinChange2 = new CoinChange2();
+        System.out.println("26/02/2026 add dp solution to find all possible way to reach given amount");
+        System.out.println(coinChange2.change(11,new int[]{5,3,2,1}));
+        System.out.println();
     }
 }
