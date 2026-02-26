@@ -393,8 +393,13 @@ public class Main {
         System.out.println();
 
         SortByNumberOfBits numberOfBits = new SortByNumberOfBits();
-        System.out.println("25/02/2026 add solution to sort numbers based on bits");
+        System.out.println("26/02/2026 add solution to sort numbers based on bits");
         System.out.println(Arrays.toString(numberOfBits.sortByBits(new int[]{1, 4, 6, 3, 8, 9, 3})));
+        System.out.println();
+
+        StepsToMakeOneBit makeOneBit = new StepsToMakeOneBit();
+        System.out.println("26/02/2026 add solution to count how many steps need to make a binary as one bit");
+        System.out.println(makeOneBit.numSteps("1011"));
         System.out.println();
     }
 }
