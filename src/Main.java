@@ -419,5 +419,10 @@ public class Main {
         System.out.println("28/02/2026 add backtracking solution to find all combination from digits");
         System.out.println(combinationOfPhoneNo.letterCombinations("23"));
         System.out.println();
+
+        ConcatenationOfConsecutiveBinaryNumbers concatenation = new ConcatenationOfConsecutiveBinaryNumbers();
+        System.out.println("28/02/2026 add bit manipulation and left shift operation to find consecutive binary num");
+        System.out.println(concatenation.concatenatedBinary(3));
+        System.out.println();
     }
 }
