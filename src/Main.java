@@ -412,5 +412,10 @@ public class Main {
         System.out.println("26/02/2026 add dp solution to find all possible way to reach given amount");
         System.out.println(coinChange2.change(11,new int[]{5,3,2,1}));
         System.out.println();
+
+        RegularExpressionMatching expressionMatching = new RegularExpressionMatching();
+        System.out.println("28/02/2026 add dp solution to find valid expression matches or not");
+        System.out.println(expressionMatching.isMatch("abb","b."));
+        System.out.println();
     }
 }
