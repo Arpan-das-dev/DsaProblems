@@ -429,5 +429,21 @@ public class Main {
         System.out.println("01/03/2026 add backtracking to solve combination sum 2");
         System.out.println(sum2.combinationSum2(new int[] {10,5,6,3,2,1,4,7},8));
         System.out.println();
+
+        ValidSudoku sudoku = new ValidSudoku();
+        System.out.println("01/03/2026 add partial row column and sub-box based validation to check valid condition");
+        System.out.println(sudoku.isValidSudoku(new char[][] {
+                        {'5','3','.','.','7','.','.','.','.'},
+                        {'6','.','.','1','9','5','.','.','.'},
+                        {'.','9','8','.','.','.','.','6','.'},
+                        {'8','.','.','.','6','.','.','.','3'},
+                        {'4','.','.','8','.','3','.','.','1'},
+                        {'7','.','.','.','2','.','.','.','6'},
+                        {'.','6','.','.','.','.','2','8','.'},
+                        {'.','.','.','4','1','9','.','.','5'},
+                        {'.','.','.','.','8','.','.','7','9'}
+                })
+        );
+        System.out.println();
     }
 }
