@@ -445,5 +445,10 @@ public class Main {
                 })
         );
         System.out.println();
+
+        PartitionIntoMinimumDeciBinaryNumbers partition = new PartitionIntoMinimumDeciBinaryNumbers();
+        System.out.println("01/03/2026 add greedy approach to find max value to get max possible partition");
+        System.out.println(partition.minPartitions("12"));
+        System.out.println();
     }
 }
