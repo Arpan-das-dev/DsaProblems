@@ -424,5 +424,10 @@ public class Main {
         System.out.println("28/02/2026 add bit manipulation and left shift operation to find consecutive binary num");
         System.out.println(concatenation.concatenatedBinary(3));
         System.out.println();
+
+        CombinationSum2 sum2 = new CombinationSum2();
+        System.out.println("01/03/2026 add backtracking to solve combination sum 2");
+        System.out.println(sum2.combinationSum2(new int[] {10,5,6,3,2,1,4,7},8));
+        System.out.println();
     }
 }
