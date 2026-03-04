@@ -13,6 +13,7 @@ import Mathematical.ReverseInteger;
 import Matrix.RotateImage;
 import Matrix.RottingOranges;
 import Matrix.SpiralMatrix;
+import Simulation.MultiplyStrings;
 import SlidingWindow.BuyAndSellStocks;
 import SlidingWindow.LongestRepeatingCharReplacement;
 import SlidingWindow.LongestSubstringWithoutRepeatingCharacters;
@@ -454,6 +455,12 @@ public class Main {
         JumpGame2 game2 = new JumpGame2();
         System.out.println("04/03/2026 add greedy approach to solve to find min steps to reach last index");
         System.out.println(game2.jump(new int[] {2,3,1,1,4}));
+        System.out.println();
+
+
+        MultiplyStrings multiplyStrings = new MultiplyStrings();
+        System.out.println("04/03/2026 add simulation with carry propagation to multiply strings");
+        System.out.println(multiplyStrings.multiply("12","11"));
         System.out.println();
     }
 }
