@@ -450,5 +450,10 @@ public class Main {
         System.out.println("01/03/2026 add greedy approach to find max value to get max possible partition");
         System.out.println(partition.minPartitions("12"));
         System.out.println();
+
+        JumpGame2 game2 = new JumpGame2();
+        System.out.println("04/03/2026 add greedy approach to solve to find min steps to reach last index");
+        System.out.println(game2.jump(new int[] {2,3,1,1,4}));
+        System.out.println();
     }
 }
