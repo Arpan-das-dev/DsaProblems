@@ -9,6 +9,7 @@ import Graphs.*;
 import Greedy.*;
 import Hashing.*;
 import Mathematical.MissingNumber;
+import Mathematical.PowXN;
 import Mathematical.ReverseInteger;
 import Matrix.RotateImage;
 import Matrix.RottingOranges;
@@ -461,6 +462,11 @@ public class Main {
         MultiplyStrings multiplyStrings = new MultiplyStrings();
         System.out.println("04/03/2026 add simulation with carry propagation to multiply strings");
         System.out.println(multiplyStrings.multiply("12","11"));
+        System.out.println();
+
+        PowXN power = new PowXN();
+        System.out.println("06/03.2026 add solution to find exp value of a number");
+        System.out.println(power.myPow(2.0,3));
         System.out.println();
     }
 }
