@@ -468,5 +468,10 @@ public class Main {
         System.out.println("06/03.2026 add solution to find exp value of a number");
         System.out.println(power.myPow(2.0,3));
         System.out.println();
+
+        PermutationsOfNumber permutations = new PermutationsOfNumber();
+        System.out.println("06/03.2026 add backtracking solution to find distinct combination");
+        System.out.println(permutations.permute(new int[] {1,2,3}));
+        System.out.println();
     }
 }
