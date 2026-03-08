@@ -470,8 +470,13 @@ public class Main {
         System.out.println();
 
         PermutationsOfNumber permutations = new PermutationsOfNumber();
-        System.out.println("06/03.2026 add backtracking solution to find distinct combination");
+        System.out.println("06/03/2026 add backtracking solution to find distinct combination");
         System.out.println(permutations.permute(new int[] {1,2,3}));
+        System.out.println();
+
+        NQueens queens = new NQueens();
+        System.out.println("08/03/2026 add backtracking solution to find distinct unbeatable n queens position");
+        System.out.println(queens.solveNQueens(4));
         System.out.println();
     }
 }
