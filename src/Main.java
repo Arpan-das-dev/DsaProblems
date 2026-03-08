@@ -9,6 +9,7 @@ import Graphs.*;
 import Greedy.*;
 import Hashing.*;
 import Mathematical.MissingNumber;
+import Mathematical.PlusOne;
 import Mathematical.PowXN;
 import Mathematical.ReverseInteger;
 import Matrix.RotateImage;
@@ -477,6 +478,12 @@ public class Main {
         NQueens queens = new NQueens();
         System.out.println("08/03/2026 add backtracking solution to find distinct unbeatable n queens position");
         System.out.println(queens.solveNQueens(4));
+        System.out.println();
+
+        PlusOne plusOne = new PlusOne();
+        System.out.println("08/03/2026 add both optimal and non optimal way to find +1 value of an array");
+        System.out.println(Arrays.toString(plusOne.plusOneNonOptimal(new int[]{9})));
+        System.out.println(Arrays.toString(plusOne.plusOne(new int[]{9, 8, 9})));
         System.out.println();
     }
 }
