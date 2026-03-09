@@ -490,5 +490,10 @@ public class Main {
         System.out.println("08/03/2026 add 2D DP solution to find solution");
         System.out.println(editDistance.minDistance("horse","ros"));
         System.out.println();
+
+        SubSets subSets = new SubSets();
+        System.out.println("08/03/2026 add backtracking solution to generate subset of an array");
+        System.out.println(subSets.subsets(new int[]{1,2,3}));
+        System.out.println();
     }
 }
