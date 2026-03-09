@@ -485,5 +485,10 @@ public class Main {
         System.out.println(Arrays.toString(plusOne.plusOneNonOptimal(new int[]{9})));
         System.out.println(Arrays.toString(plusOne.plusOne(new int[]{9, 8, 9})));
         System.out.println();
+
+        EditDistance editDistance = new EditDistance();
+        System.out.println("08/03/2026 add 2D DP solution to find solution");
+        System.out.println(editDistance.minDistance("horse","ros"));
+        System.out.println();
     }
 }
