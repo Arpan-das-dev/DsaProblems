@@ -502,5 +502,10 @@ public class Main {
         System.out.println("09/03/2026 add stack based next greater and previous greater approach solution");
         System.out.println(rectangleInHistogram.maxArea(new int[] {2,1,5,6,2,3}));
         System.out.println();
+
+        TaskScheduler scheduler = new TaskScheduler();
+        System.out.println("10/03/2026 add greedy solution to schedule task in cpu");
+        System.out.println(scheduler.leastInterval(new char[] {'A','B','B','B','A','A','A'},2));
+        System.out.println();
     }
 }
