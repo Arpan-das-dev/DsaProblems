@@ -20,10 +20,7 @@ import SlidingWindow.BuyAndSellStocks;
 import SlidingWindow.LongestRepeatingCharReplacement;
 import SlidingWindow.LongestSubstringWithoutRepeatingCharacters;
 import SlidingWindow.MinWindowSubString;
-import Stack.DailyTemperatures;
-import Stack.MinStack;
-import Stack.NextGreaterElement;
-import Stack.ValidParenthesis;
+import Stack.*;
 import Trees.ConstructBinaryTree;
 import TwoPointers.ContainerWithMostWater;
 import TwoPointers.ThreeSum;
@@ -499,6 +496,11 @@ public class Main {
         InterleavingString interleavingString= new InterleavingString();
         System.out.println("09/03/2026 add 2d dp solution to find if two string's inter living combo is same as input");
         System.out.println(interleavingString.isInterleave("aab","axy","aaxaby"));
+        System.out.println();
+
+        LargestRectangleInHistogram rectangleInHistogram = new LargestRectangleInHistogram();
+        System.out.println("09/03/2026 add stack based next greater and previous greater approach solution");
+        System.out.println(rectangleInHistogram.maxArea(new int[] {2,1,5,6,2,3}));
         System.out.println();
     }
 }
