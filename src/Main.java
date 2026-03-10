@@ -495,5 +495,10 @@ public class Main {
         System.out.println("08/03/2026 add backtracking solution to generate subset of an array");
         System.out.println(subSets.subsets(new int[]{1,2,3}));
         System.out.println();
+
+        InterleavingString interleavingString= new InterleavingString();
+        System.out.println("09/03/2026 add 2d dp solution to find if two string's inter living combo is same as input");
+        System.out.println(interleavingString.isInterleave("aab","axy","aaxaby"));
+        System.out.println();
     }
 }
