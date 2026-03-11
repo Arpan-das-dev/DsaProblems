@@ -507,5 +507,10 @@ public class Main {
         System.out.println("10/03/2026 add greedy solution to schedule task in cpu");
         System.out.println(scheduler.leastInterval(new char[] {'A','B','B','B','A','A','A'},2));
         System.out.println();
+
+        DistinctSubsequences subsequences = new DistinctSubsequences();
+        System.out.println("10/03/2026 add 2d DP solution to find max numb of distinct subsequences");
+        System.out.println(subsequences.numDistinct("babgbag","bag"));
+        System.out.println();
     }
 }
