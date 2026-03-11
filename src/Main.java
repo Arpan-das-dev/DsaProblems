@@ -16,6 +16,7 @@ import Mathematical.ReverseInteger;
 import Matrix.RotateImage;
 import Matrix.RottingOranges;
 import Matrix.SpiralMatrix;
+import Matrix.SurroundedRegions;
 import Simulation.MultiplyStrings;
 import SlidingWindow.BuyAndSellStocks;
 import SlidingWindow.LongestRepeatingCharReplacement;
@@ -518,6 +519,16 @@ public class Main {
         System.out.println("10/03/2026 add queue based solution to solve last stone weight problem");
         System.out.println(stoneWeight.lastStoneWeight(new int[]{2,7,4,1,8,1}));
         System.out.println(stoneWeight.lastStoneWeightCollectionVersion(new int[] {2,7,4,1,8,1}));
+        System.out.println();
+
+        SurroundedRegions regions = new SurroundedRegions();
+        System.out.println("10/03/2026 add dfs based solution to mark uncapturable O in a 2D matrix");
+        regions.solve(new char[][] {
+                {'X','X','X','X'},
+                {'X','0','0','X'},
+                {'X','X','0','X'},
+                {'X','0','X','X'}
+        });
         System.out.println();
     }
 }
