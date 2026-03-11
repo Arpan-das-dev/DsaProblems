@@ -8,6 +8,7 @@ import DynamicProgramming.*;
 import Graphs.*;
 import Greedy.*;
 import Hashing.*;
+import Heaps.LastStoneWeight;
 import Mathematical.MissingNumber;
 import Mathematical.PlusOne;
 import Mathematical.PowXN;
@@ -511,6 +512,12 @@ public class Main {
         DistinctSubsequences subsequences = new DistinctSubsequences();
         System.out.println("10/03/2026 add 2d DP solution to find max numb of distinct subsequences");
         System.out.println(subsequences.numDistinct("babgbag","bag"));
+        System.out.println();
+
+        LastStoneWeight stoneWeight = new LastStoneWeight();
+        System.out.println("10/03/2026 add queue based solution to solve last stone weight problem");
+        System.out.println(stoneWeight.lastStoneWeight(new int[]{2,7,4,1,8,1}));
+        System.out.println(stoneWeight.lastStoneWeightCollectionVersion(new int[] {2,7,4,1,8,1}));
         System.out.println();
     }
 }
