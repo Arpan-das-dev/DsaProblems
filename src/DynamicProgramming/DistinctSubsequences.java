@@ -1,8 +1,6 @@
 package DynamicProgramming;
 
-import java.util.Arrays;
-
-public class DetectSusSequences {
+public class DistinctSubsequences {
     public int numDistinct(String s, String t) {
         int row = t.length();
         int col = s.length();
