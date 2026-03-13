@@ -31,6 +31,7 @@ import TwoPointers.ValidPalindrome;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
@@ -540,6 +541,11 @@ public class Main {
         System.out.println("13/03/2026 add hashmap/bit manipulation technique to identify single occurrence of an element");
         System.out.println(singleNumber.singleNumber(new int[] {4,2,3,1,2,3,1}));
         System.out.println(singleNumber.singleNumberMapVersion(new int[] {1,1,2,4,5,3,2,5,3}));
+        System.out.println();
+
+        WordLadder wordLadder = new WordLadder();
+        System.out.println("13/03/2026 add bfs based solution to solve word ladder");
+        System.out.println(wordLadder.ladderLength("hit","cog", List.of("hot","dot","dog","log","cog")));
         System.out.println();
     }
 }
