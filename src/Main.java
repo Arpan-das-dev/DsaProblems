@@ -530,5 +530,10 @@ public class Main {
                 {'X','0','X','X'}
         });
         System.out.println();
+
+        PalindromePartitioning partitioning = new PalindromePartitioning();
+        System.out.println("13/03/2026 as backtracking based solution to find palindromic partitions");
+        System.out.println(partitioning.partition("aab"));
+        System.out.println();
     }
 }
