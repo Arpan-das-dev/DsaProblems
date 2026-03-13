@@ -535,5 +535,11 @@ public class Main {
         System.out.println("13/03/2026 as backtracking based solution to find palindromic partitions");
         System.out.println(partitioning.partition("aab"));
         System.out.println();
+
+        SingleNumber singleNumber = new SingleNumber();
+        System.out.println("13/03/2026 add hashmap/bit manipulation technique to identify single occurrence of an element");
+        System.out.println(singleNumber.singleNumber(new int[] {4,2,3,1,2,3,1}));
+        System.out.println(singleNumber.singleNumberMapVersion(new int[] {1,1,2,4,5,3,2,5,3}));
+        System.out.println();
     }
 }
