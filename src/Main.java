@@ -547,5 +547,10 @@ public class Main {
         System.out.println("13/03/2026 add bfs based solution to solve word ladder");
         System.out.println(wordLadder.ladderLength("hit","cog", List.of("hot","dot","dog","log","cog")));
         System.out.println();
+
+        MinCostToClimbStairs costToClimbStairs = new MinCostToClimbStairs();
+        System.out.println("14/03/2026 add dp memoization technique to find min cost to climb all stairs");
+        System.out.println(costToClimbStairs.minCostClimbingStairs(new int[] {10,15,20}));
+        System.out.println();
     }
 }
