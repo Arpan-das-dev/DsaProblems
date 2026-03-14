@@ -9,6 +9,7 @@ import Graphs.*;
 import Greedy.*;
 import Hashing.*;
 import Heaps.LastStoneWeight;
+import LinkedLists.LRUCache;
 import Mathematical.MissingNumber;
 import Mathematical.PlusOne;
 import Mathematical.PowXN;
@@ -551,6 +552,14 @@ public class Main {
         MinCostToClimbStairs costToClimbStairs = new MinCostToClimbStairs();
         System.out.println("14/03/2026 add dp memoization technique to find min cost to climb all stairs");
         System.out.println(costToClimbStairs.minCostClimbingStairs(new int[] {10,15,20}));
+        System.out.println();
+
+        LRUCache lruCache = new LRUCache(4);
+        System.out.println("14/03/2026 designed a doubly linked list based cache");
+        lruCache.put(2,5);
+        System.out.println(lruCache.get(3));
+        lruCache.put(4,2);
+        System.out.println(lruCache.get(2));
         System.out.println();
     }
 }
