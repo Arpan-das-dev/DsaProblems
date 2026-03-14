@@ -1,6 +1,6 @@
 package DynamicProgramming;
 
-public class MinConstToClimbStairs {
+public class MinCostToClimbStairs {
     // 1,100,1,1,1,100,1,1,100,1
     public int minCostClimbingStairs(int[] cost) {
         if(cost == null || cost.length == 0) return 0;
