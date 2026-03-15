@@ -561,5 +561,10 @@ public class Main {
         lruCache.put(4,2);
         System.out.println(lruCache.get(2));
         System.out.println();
+
+        ValidParenthesisString validParenthesisString = new ValidParenthesisString();
+        System.out.println("15/03/2026 add greedy approach to validate parenthesis string");
+        System.out.println(validParenthesisString.checkValidString("(*)"));
+        System.out.println();
     }
 }
