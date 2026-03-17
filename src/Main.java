@@ -566,5 +566,10 @@ public class Main {
         System.out.println("15/03/2026 add greedy approach to validate parenthesis string");
         System.out.println(validParenthesisString.checkValidString("(*)"));
         System.out.println();
+
+        SubSets2 subSets2 = new SubSets2();
+        System.out.println("16/03/2026 add backtracking method to create unique subset from duplicate array");
+        System.out.println(subSets2.subsetsWithDup(new int[]{1,2,3,4,2}));
+        System.out.println();
     }
 }
