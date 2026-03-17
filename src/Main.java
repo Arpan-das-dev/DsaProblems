@@ -568,8 +568,16 @@ public class Main {
         System.out.println();
 
         SubSets2 subSets2 = new SubSets2();
-        System.out.println("16/03/2026 add backtracking method to create unique subset from duplicate array");
+        System.out.println("17/03/2026 add backtracking method to create unique subset from duplicate array");
         System.out.println(subSets2.subsetsWithDup(new int[]{1,2,3,4,2}));
+        System.out.println();
+
+        DetectSquares detectSquares = new DetectSquares();
+        System.out.println("17/03/2026 add hashing with co-ordinate geometry to solve detect square");
+        detectSquares.add(new int[]{3,10});
+        detectSquares.add(new int[] {11,2});
+        detectSquares.add(new int[] {3,2});
+        System.out.println("squares detected for -> "+detectSquares.count(new int[]{11,10}));
         System.out.println();
     }
 }
