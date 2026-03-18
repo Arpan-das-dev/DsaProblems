@@ -4,6 +4,7 @@ import BinarySearch.KokoEatingBananas;
 import BinarySearch.MedianOfSortedArrays;
 import BitManipulation.*;
 import BinarySearch.SearchInRotatedSortedArray;
+import DivideAndConquer.FindKthLargestElement;
 import DynamicProgramming.*;
 import Graphs.*;
 import Greedy.*;
@@ -580,6 +581,12 @@ public class Main {
         HappyNumber isHappy = new HappyNumber();
         System.out.println("18/03/2026 add method to find if a number is happy or not");
         System.out.println(isHappy.isHappy(17));
+        System.out.println();
+
+        FindKthLargestElement kthLargestElement = new FindKthLargestElement();
+        System.out.println("18/03/2026 add min heap and divide & conquer method to find kth largest element");
+        System.out.println(kthLargestElement.findKthLargest(new int[]{3,2,1,5,6,4},2));
+        System.out.println(kthLargestElement.findKthLargestHeap(new int[]{3,2,1,5,6,4},2));
         System.out.println();
     }
 }
