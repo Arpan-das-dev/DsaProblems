@@ -10,10 +10,7 @@ import Greedy.*;
 import Hashing.*;
 import Heaps.LastStoneWeight;
 import LinkedLists.LRUCache;
-import Mathematical.MissingNumber;
-import Mathematical.PlusOne;
-import Mathematical.PowXN;
-import Mathematical.ReverseInteger;
+import Mathematical.*;
 import Matrix.RotateImage;
 import Matrix.RottingOranges;
 import Matrix.SpiralMatrix;
@@ -578,6 +575,11 @@ public class Main {
         detectSquares.add(new int[] {11,2});
         detectSquares.add(new int[] {3,2});
         System.out.println("squares detected for -> "+detectSquares.count(new int[]{11,10}));
+        System.out.println();
+
+        HappyNumber isHappy = new HappyNumber();
+        System.out.println("18/03/2026 add method to find if a number is happy or not");
+        System.out.println(isHappy.isHappy(17));
         System.out.println();
     }
 }
