@@ -16,6 +16,7 @@ import Matrix.RotateImage;
 import Matrix.RottingOranges;
 import Matrix.SpiralMatrix;
 import Matrix.SurroundedRegions;
+import Simulation.ConcatenationOfArray;
 import Simulation.MultiplyStrings;
 import SlidingWindow.BuyAndSellStocks;
 import SlidingWindow.LongestRepeatingCharReplacement;
@@ -587,6 +588,11 @@ public class Main {
         System.out.println("18/03/2026 add min heap and divide & conquer method to find kth largest element");
         System.out.println(kthLargestElement.findKthLargest(new int[]{3,2,1,5,6,4},2));
         System.out.println(kthLargestElement.findKthLargestHeap(new int[]{3,2,1,5,6,4},2));
+        System.out.println();
+
+        ConcatenationOfArray concatenationOfArray = new ConcatenationOfArray();
+        System.out.println("20/03/2026 add solution to find solution of concatenation of an array");
+        System.out.println(Arrays.toString(concatenationOfArray.getConcatenation(new int[]{1, 4, 1, 2})));
         System.out.println();
     }
 }
