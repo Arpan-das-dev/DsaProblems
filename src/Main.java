@@ -594,5 +594,12 @@ public class Main {
         System.out.println("20/03/2026 add solution to find solution of concatenation of an array");
         System.out.println(Arrays.toString(concatenationOfArray.getConcatenation(new int[]{1, 4, 1, 2})));
         System.out.println();
+
+        MinCostToConnectAllPoints costToConnectAllPoints = new MinCostToConnectAllPoints();
+        System.out.println("20/03/2026 add prim's algorithm both queue and non queue based solution");
+        int[][] points = new int[][] {{0,0},{2,2},{3,10},{5,2},{7,0}};
+        System.out.println(costToConnectAllPoints.minCostConnectPoints(points));
+        System.out.println(costToConnectAllPoints.minCostConnectPointsPrims(points));
+        System.out.println();
     }
 }
