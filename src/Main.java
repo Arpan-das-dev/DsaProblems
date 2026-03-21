@@ -607,5 +607,10 @@ public class Main {
         int[][] edges = new int[][] {{1,2},{2,3},{3,4},{1,4},{1,5}};
         System.out.println(Arrays.toString(redundantConnection.findRedundantConnectionDSU(edges)));
         System.out.println(Arrays.toString(redundantConnection.findRedundantConnection(edges)));
+
+        SubArraySumK subArraySumK = new SubArraySumK();
+        System.out.println("21/03/2026 add prefix sum method to find sub array sum == k");
+        System.out.println(subArraySumK.subarraySum(new int[]{2,-1,1,2},2));
+        System.out.println();
     }
 }
