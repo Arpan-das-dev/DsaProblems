@@ -601,5 +601,11 @@ public class Main {
         System.out.println(costToConnectAllPoints.minCostConnectPoints(points));
         System.out.println(costToConnectAllPoints.minCostConnectPointsPrims(points));
         System.out.println();
+
+        RedundantConnection redundantConnection = new RedundantConnection();
+        System.out.println("21/03/2026 add DSU method to find redundant connection");
+        int[][] edges = new int[][] {{1,2},{2,3},{3,4},{1,4},{1,5}};
+        System.out.println(Arrays.toString(redundantConnection.findRedundantConnectionDSU(edges)));
+        System.out.println(Arrays.toString(redundantConnection.findRedundantConnection(edges)));
     }
 }
