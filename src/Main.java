@@ -612,5 +612,10 @@ public class Main {
         System.out.println("21/03/2026 add prefix sum method to find sub array sum == k");
         System.out.println(subArraySumK.subarraySum(new int[]{2,-1,1,2},2));
         System.out.println();
+
+        UniquePaths uniquePaths = new UniquePaths();
+        System.out.println("22/03/2026 add 2d dp problem to find all possible way to find paths");
+        System.out.println(uniquePaths.uniquePaths(3,7));
+        System.out.println();
     }
 }
