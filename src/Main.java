@@ -18,10 +18,7 @@ import Matrix.SpiralMatrix;
 import Matrix.SurroundedRegions;
 import Simulation.ConcatenationOfArray;
 import Simulation.MultiplyStrings;
-import SlidingWindow.BuyAndSellStocks;
-import SlidingWindow.LongestRepeatingCharReplacement;
-import SlidingWindow.LongestSubstringWithoutRepeatingCharacters;
-import SlidingWindow.MinWindowSubString;
+import SlidingWindow.*;
 import Stack.*;
 import Trees.ConstructBinaryTree;
 import TwoPointers.ContainerWithMostWater;
@@ -616,6 +613,11 @@ public class Main {
         UniquePaths uniquePaths = new UniquePaths();
         System.out.println("22/03/2026 add 2d dp problem to find all possible way to find paths");
         System.out.println(uniquePaths.uniquePaths(3,7));
+        System.out.println();
+
+        SlidingWindowMaximum windowMaximum = new SlidingWindowMaximum();
+        System.out.println("22/03/2026 add deque based sliding window pattern to find max for each window");
+        System.out.println(Arrays.toString(windowMaximum.maxSlidingWindow(new int[]{1,2,1,0,4,2,6}, 3)));
         System.out.println();
     }
 }
