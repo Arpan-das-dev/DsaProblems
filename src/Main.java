@@ -12,10 +12,7 @@ import Hashing.*;
 import Heaps.LastStoneWeight;
 import LinkedLists.LRUCache;
 import Mathematical.*;
-import Matrix.RotateImage;
-import Matrix.RottingOranges;
-import Matrix.SpiralMatrix;
-import Matrix.SurroundedRegions;
+import Matrix.*;
 import Simulation.ConcatenationOfArray;
 import Simulation.MultiplyStrings;
 import SlidingWindow.*;
@@ -618,6 +615,11 @@ public class Main {
         SlidingWindowMaximum windowMaximum = new SlidingWindowMaximum();
         System.out.println("22/03/2026 add deque based sliding window pattern to find max for each window");
         System.out.println(Arrays.toString(windowMaximum.maxSlidingWindow(new int[]{1,2,1,0,4,2,6}, 3)));
+        System.out.println();
+
+        SetZeros setZeros = new SetZeros();
+        System.out.println("22/03/2026 used a marker based solution to make row and cols zero for a matrix");
+        setZeros.setZeroes(new int[][] {{1,1,1}, {1,0,1}, {1,1,1}});
         System.out.println();
     }
 }
