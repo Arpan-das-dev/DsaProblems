@@ -10,6 +10,7 @@ import Graphs.*;
 import Greedy.*;
 import Hashing.*;
 import Heaps.LastStoneWeight;
+import Heaps.MinIntervalToIncludeEachQuery;
 import LinkedLists.LRUCache;
 import Mathematical.*;
 import Matrix.*;
@@ -632,6 +633,12 @@ public class Main {
         CourseSchedule2 schedule2 = new CourseSchedule2();
         System.out.println("23/03/26 using topological sort with indegree to return probable schedule");
         System.out.println(Arrays.toString(schedule2.findOrder(4,new int[][] {{1,0},{2,0},{3,1},{3,2}})));
+        System.out.println();
+
+        MinIntervalToIncludeEachQuery includeEachQuery = new MinIntervalToIncludeEachQuery();
+        System.out.println("23/03/26 used sorting and heap based on time to find query time");
+        System.out.println(Arrays.toString(includeEachQuery
+                .minInterval(new int[][] {{1,4},{2,4},{3,6},{4,4}},new int[] {2,3,4,5})));
         System.out.println();
     }
 }
