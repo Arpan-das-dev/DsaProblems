@@ -628,5 +628,10 @@ public class Main {
                 {0,1,2,3,4}, {24,23,22,21,5}, {12,13,14,15,16}, {11,17,18,19,20}, {10,9,8,7,6}
         }));
         System.out.println();
+
+        CourseSchedule2 schedule2 = new CourseSchedule2();
+        System.out.println("23/03/26 using topological sort with indegree to return probable schedule");
+        System.out.println(Arrays.toString(schedule2.findOrder(4,new int[][] {{1,0},{2,0},{3,1},{3,2}})));
+        System.out.println();
     }
 }
