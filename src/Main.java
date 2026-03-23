@@ -621,5 +621,12 @@ public class Main {
         System.out.println("22/03/2026 used a marker based solution to make row and cols zero for a matrix");
         setZeros.setZeroes(new int[][] {{1,1,1}, {1,0,1}, {1,1,1}});
         System.out.println();
+
+        SwimInRisingWater risingWater = new SwimInRisingWater();
+        System.out.println("23/03/26 used DFS + Binary search to find min time to reach to end");
+        System.out.println(risingWater.swimInWater(new int[][]{
+                {0,1,2,3,4}, {24,23,22,21,5}, {12,13,14,15,16}, {11,17,18,19,20}, {10,9,8,7,6}
+        }));
+        System.out.println();
     }
 }
