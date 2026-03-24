@@ -643,7 +643,12 @@ public class Main {
 
         NetworkDelay networkDelay = new NetworkDelay();
         System.out.println("23/03/26 used dijkstra algo to find min cost to reach all nodes");
-        System.out.println(networkDelay.NetworkDelayTime(new int[][] {{2,1,1},{2,3,1},{3,4,1}},4,2));
+        System.out.println(networkDelay.networkDelayTime(new int[][] {{2,1,1},{2,3,1},{3,4,1}},4,2));
+        System.out.println();
+
+        ConnectedComponentsInAUnidirectedGraph components = new ConnectedComponentsInAUnidirectedGraph();
+        System.out.println("23/03/26 used DFS based solution to return connected components");
+        System.out.println(components.getComponents(5,new int[][] {{0,1},{2,1},{3,4}}));
         System.out.println();
     }
 }
