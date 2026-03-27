@@ -650,5 +650,12 @@ public class Main {
         System.out.println("23/03/26 used DFS based solution to return connected components");
         System.out.println(components.getComponents(5,new int[][] {{0,1},{2,1},{3,4}}));
         System.out.println();
+
+        LongestIncreasingPathInAMatrix longestIncreasingPathInAMatrix = new LongestIncreasingPathInAMatrix();
+        System.out.println("27/03/2026 add dp with DFS based solution to find max increasing path");
+        System.out.println(longestIncreasingPathInAMatrix.longestIncreasingPath(new int[][] {
+                {9,9,4}, {6,6,8}, {2,1,1}
+        }));
+        System.out.println();
     }
 }
