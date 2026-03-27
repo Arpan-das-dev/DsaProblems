@@ -663,5 +663,10 @@ public class Main {
         System.out.println(targetSum.findTargetSumWays(new int[] {1,1,1,1,1},3));
         System.out.println(targetSum.findTargetSumWaysBrute(new int[] {1,1,1,1,1},3));
         System.out.println();
+
+        PartitionLabels partitionLabels = new PartitionLabels();
+        System.out.println("27/03/2026 add greedy solution to find solution");
+        System.out.println(partitionLabels.partitionLabels("ababcbacadefegdehijhklij"));
+        System.out.println();
     }
 }
