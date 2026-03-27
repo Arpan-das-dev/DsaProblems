@@ -657,5 +657,11 @@ public class Main {
                 {9,9,4}, {6,6,8}, {2,1,1}
         }));
         System.out.println();
+
+        TargetSum targetSum = new TargetSum();
+        System.out.println("27/03/2026 add dp based solution to find ways to reach target with + and - values");
+        System.out.println(targetSum.findTargetSumWays(new int[] {1,1,1,1,1},3));
+        System.out.println(targetSum.findTargetSumWaysBrute(new int[] {1,1,1,1,1},3));
+        System.out.println();
     }
 }
