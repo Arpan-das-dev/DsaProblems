@@ -1,9 +1,6 @@
 import BackTracking.*;
-import BinarySearch.FindMinInRotatedSortedArray;
-import BinarySearch.KokoEatingBananas;
-import BinarySearch.MedianOfSortedArrays;
+import BinarySearch.*;
 import BitManipulation.*;
-import BinarySearch.SearchInRotatedSortedArray;
 import DivideAndConquer.FindKthLargestElement;
 import DynamicProgramming.*;
 import Graphs.*;
@@ -667,6 +664,11 @@ public class Main {
         PartitionLabels partitionLabels = new PartitionLabels();
         System.out.println("27/03/2026 add greedy solution to find solution");
         System.out.println(partitionLabels.partitionLabels("ababcbacadefegdehijhklij"));
+        System.out.println();
+
+        PeakIndexInAMountainArray peak = new PeakIndexInAMountainArray();
+        System.out.println("28/03/2026 add a binary search method to find max peak of an array");
+        System.out.println(peak.peakIndexInMountainArray(new int[] {1,2,3,4,5,4,3,2}));
         System.out.println();
     }
 }
