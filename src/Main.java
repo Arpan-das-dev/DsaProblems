@@ -670,5 +670,10 @@ public class Main {
         System.out.println("28/03/2026 add a binary search method to find max peak of an array");
         System.out.println(peak.peakIndexInMountainArray(new int[] {1,2,3,4,5,4,3,2}));
         System.out.println();
+
+        MinSwapsToGroupAllOnes minSwapsToGroupAllOnes = new MinSwapsToGroupAllOnes();
+        System.out.println("28/03/2026 add sliding window to find min swaps req to group all one");
+        System.out.println(minSwapsToGroupAllOnes.minSwaps(new int[]{1,1,0,1,0}));
+        System.out.println();
     }
 }
