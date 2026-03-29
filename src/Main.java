@@ -686,5 +686,13 @@ public class Main {
         System.out.println("29/03/2026 add greedy solution to find can triplet can be made or not");
         System.out.println(toFormTriplet.mergeTriplets(new int[][] {{2,5,3},{1,8,4},{1,7,5}},new int[] {2,7,5}));
         System.out.println();
+
+        ReconstructItinerary reconstructItinerary = new ReconstructItinerary();
+        System.out.println("29/03/2026 solved Eulerian Path problem on a directed graph to find correct itinerary");
+        System.out.println(reconstructItinerary
+                .findItinerary(List.of(
+                        List.of("MUC","LHR"),List.of("JFK","MUC"),List.of("SFO","SJC"),List.of("LHR","SFO"))
+                ));
+        System.out.println();
     }
 }
