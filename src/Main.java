@@ -6,6 +6,7 @@ import DynamicProgramming.*;
 import Graphs.*;
 import Greedy.*;
 import Hashing.*;
+import Heaps.KthLargest;
 import Heaps.LastStoneWeight;
 import Heaps.MinIntervalToIncludeEachQuery;
 import LinkedLists.LRUCache;
@@ -674,6 +675,11 @@ public class Main {
         MinSwapsToGroupAllOnes minSwapsToGroupAllOnes = new MinSwapsToGroupAllOnes();
         System.out.println("28/03/2026 add sliding window to find min swaps req to group all one");
         System.out.println(minSwapsToGroupAllOnes.minSwaps(new int[]{1,1,0,1,0}));
+        System.out.println();
+
+        KthLargest kthLargest = new KthLargest(3,new int []{74,64,87});
+        System.out.println("29/03/2026 add a class to find kth highest value from a stream");
+        System.out.println(kthLargest.add(89));
         System.out.println();
     }
 }
