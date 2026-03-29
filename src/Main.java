@@ -681,5 +681,10 @@ public class Main {
         System.out.println("29/03/2026 add a class to find kth highest value from a stream");
         System.out.println(kthLargest.add(89));
         System.out.println();
+
+        MergeTripletToFormTriplet toFormTriplet = new MergeTripletToFormTriplet();
+        System.out.println("29/03/2026 add greedy solution to find can triplet can be made or not");
+        System.out.println(toFormTriplet.mergeTriplets(new int[][] {{2,5,3},{1,8,4},{1,7,5}},new int[] {2,7,5}));
+        System.out.println();
     }
 }
