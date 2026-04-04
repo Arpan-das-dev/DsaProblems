@@ -6,6 +6,7 @@ import DynamicProgramming.*;
 import Graphs.*;
 import Greedy.*;
 import Hashing.*;
+import Heaps.KClosestPointToOrigin;
 import Heaps.KthLargest;
 import Heaps.LastStoneWeight;
 import Heaps.MinIntervalToIncludeEachQuery;
@@ -693,6 +694,12 @@ public class Main {
                 .findItinerary(List.of(
                         List.of("MUC","LHR"),List.of("JFK","MUC"),List.of("SFO","SJC"),List.of("LHR","SFO"))
                 ));
+        System.out.println();
+
+        KClosestPointToOrigin closestPointToOrigin = new KClosestPointToOrigin();
+        System.out.println("04/04/2026 add heap based solution to find kth closest point to origin");
+        System.out.println(Arrays
+                .deepToString(closestPointToOrigin.kClosest(new int[][]{{1, 1}, {4, 3}, {3, -9}}, 2)));
         System.out.println();
     }
 }
