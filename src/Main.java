@@ -701,5 +701,10 @@ public class Main {
         System.out.println(Arrays
                 .deepToString(closestPointToOrigin.kClosest(new int[][]{{1, 1}, {4, 3}, {3, -9}}, 2)));
         System.out.println();
+
+        PartitionEqualSubsetSum subsetSum = new PartitionEqualSubsetSum();
+        System.out.println("04/04/2026 add dp based solution to find if the array can be divided into two subset of same sum");
+        System.out.println(subsetSum.canPartition(new int[] {5,5,1,11}));
+        System.out.println();
     }
 }
