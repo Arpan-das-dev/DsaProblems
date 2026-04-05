@@ -19,10 +19,7 @@ import Simulation.MultiplyStrings;
 import SlidingWindow.*;
 import Stack.*;
 import Trees.ConstructBinaryTree;
-import TwoPointers.ContainerWithMostWater;
-import TwoPointers.ThreeSum;
-import TwoPointers.TrapRainWater;
-import TwoPointers.ValidPalindrome;
+import TwoPointers.*;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -711,6 +708,13 @@ public class Main {
         LongestCommonPrefix commonPrefix = new LongestCommonPrefix();
         System.out.println("05/04/2026 add horizontal scanning mechanism to find longest common prefix");
         System.out.println(commonPrefix.longestCommonPrefix(new String[]{"bat","bag","ball"}));
+        System.out.println();
+
+        ReverseString reverseString = new ReverseString();
+        System.out.println("05/04/2026 add both swap and two pointer based solution to reverse string");
+        char[] str = new char[] {'b','a','t','f'};
+        reverseString.reverseString(str);
+        reverseString.reverseStringSwapBased(str);
         System.out.println();
     }
 }
