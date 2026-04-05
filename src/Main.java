@@ -10,6 +10,7 @@ import Heaps.KClosestPointToOrigin;
 import Heaps.KthLargest;
 import Heaps.LastStoneWeight;
 import Heaps.MinIntervalToIncludeEachQuery;
+import HorizontalScanningAKAPrefixScanning.LongestCommonPrefix;
 import LinkedLists.LRUCache;
 import Mathematical.*;
 import Matrix.*;
@@ -705,6 +706,11 @@ public class Main {
         PartitionEqualSubsetSum subsetSum = new PartitionEqualSubsetSum();
         System.out.println("04/04/2026 add dp based solution to find if the array can be divided into two subset of same sum");
         System.out.println(subsetSum.canPartition(new int[] {5,5,1,11}));
+        System.out.println();
+
+        LongestCommonPrefix commonPrefix = new LongestCommonPrefix();
+        System.out.println("05/04/2026 add horizontal scanning mechanism to find longest common prefix");
+        System.out.println(commonPrefix.longestCommonPrefix(new String[]{"bat","bag","ball"}));
         System.out.println();
     }
 }
