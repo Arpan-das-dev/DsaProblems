@@ -1,4 +1,4 @@
-package Trie;
+package HorizontalScanningAKAPrefixScanning;
 
 public class LongestCommonPrefix {
     public String longestCommonPrefix(String[] strs) {
