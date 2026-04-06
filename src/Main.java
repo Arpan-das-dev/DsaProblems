@@ -721,5 +721,10 @@ public class Main {
         System.out.println("05/04/2026 add two pointer greedy approach to find min number of boats required");
         System.out.println(toSavePeople.numRescueBoats(new int[] {5,1,4,2},6));
         System.out.println();
+
+        BaseBallGame baseBallGame = new BaseBallGame();
+        System.out.println("05/04/2026 add stack based solution to find final scorecard of baseball game");
+        System.out.println(baseBallGame.calPoints(new String[] {"5","2","C","D","+"}));
+        System.out.println();
     }
 }
