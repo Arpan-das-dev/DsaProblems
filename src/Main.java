@@ -716,5 +716,10 @@ public class Main {
         reverseString.reverseString(str);
         reverseString.reverseStringSwapBased(str);
         System.out.println();
+
+        BoatsToSavePeople toSavePeople = new BoatsToSavePeople();
+        System.out.println("05/04/2026 add two pointer greedy approach to find min number of boats required");
+        System.out.println(toSavePeople.numRescueBoats(new int[] {5,1,4,2},6));
+        System.out.println();
     }
 }
