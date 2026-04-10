@@ -726,5 +726,15 @@ public class Main {
         System.out.println("05/04/2026 add stack based solution to find final scorecard of baseball game");
         System.out.println(baseBallGame.calPoints(new String[] {"5","2","C","D","+"}));
         System.out.println();
+
+        GuessTheNumber guessTheNumber = new GuessTheNumber(15);
+        System.out.println("08/04/2026 add a binary search based number guess game method");
+        System.out.println(guessTheNumber.guessNumber(20));
+        System.out.println();
+
+        SortColors sortColors = new SortColors();
+        System.out.println("10/04/2026 add a dutch flag algorithm to sort colors");
+        sortColors.sortColors(new int[] {1,1,0,2,0});
+        System.out.println();
     }
 }
