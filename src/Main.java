@@ -736,5 +736,10 @@ public class Main {
         System.out.println("10/04/2026 add a dutch flag algorithm to sort colors");
         sortColors.sortColors(new int[] {1,1,0,2,0});
         System.out.println();
+
+        ReOrganizeString reOrganizeString = new ReOrganizeString();
+        System.out.println("10/04/2026 add greedy based solution to add most frequent char first");
+        System.out.println(reOrganizeString.reorganizeString("apple"));
+        System.out.println();
     }
 }
