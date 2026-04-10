@@ -741,5 +741,10 @@ public class Main {
         System.out.println("10/04/2026 add greedy based solution to add most frequent char first");
         System.out.println(reOrganizeString.reorganizeString("apple"));
         System.out.println();
+
+        MergeStringsAlternately alternately = new MergeStringsAlternately();
+        System.out.println("10/04/2026 add two pointer approach to generate string with alternate chars");
+        System.out.println(alternately.mergeAlternately("apple","pokemon"));
+        System.out.println();
     }
 }
