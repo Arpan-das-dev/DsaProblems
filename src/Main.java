@@ -746,5 +746,12 @@ public class Main {
         System.out.println("10/04/2026 add two pointer approach to generate string with alternate chars");
         System.out.println(alternately.mergeAlternately("apple","pokemon"));
         System.out.println();
+
+        Tribonacci tribonacci = new Tribonacci();
+        System.out.println("12/04/2026 add both recursive and dp solution to find tribonacci value");
+        System.out.println(tribonacci.tribonacci(5));
+        System.out.println(tribonacci.tribonacciRecursion(6));
+        System.out.println(tribonacci.tribonacciExtraSpaceDp(7));
+        System.out.println();
     }
 }
