@@ -1,4 +1,4 @@
-package Mathematical;
+package Matrix;
 
 /**
  * Utility class to rotate a square matrix 90 degrees clockwise in-place.
