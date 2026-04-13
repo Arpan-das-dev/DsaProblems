@@ -753,5 +753,10 @@ public class Main {
         System.out.println(tribonacci.tribonacciRecursion(6));
         System.out.println(tribonacci.tribonacciExtraSpaceDp(7));
         System.out.println();
+
+        ContainsDuplicate2 duplicate2 = new ContainsDuplicate2();
+        System.out.println("13/04/2026 add fixed sized sliding window with hashset to detect duplicate");
+        System.out.println(duplicate2.containsNearbyDuplicate(new int[] {1,2,3,1,2,3}, 2));
+        System.out.println();
     }
 }
