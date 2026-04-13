@@ -764,5 +764,10 @@ public class Main {
         System.out.println(majorityElement2.majorityElementBrute(new int[] {3,2,3}));
         System.out.println(majorityElement2.majorityElement(new int[] {1,2}));
         System.out.println();
+
+        Combinations1 combinations1 = new Combinations1();
+        System.out.println("13/04/2026 add recursive backtracking to detect all distinct combination of k size");
+        System.out.println(combinations1.combine(3,2));
+        System.out.println();
     }
 }
