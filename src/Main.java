@@ -758,5 +758,11 @@ public class Main {
         System.out.println("13/04/2026 add fixed sized sliding window with hashset to detect duplicate");
         System.out.println(duplicate2.containsNearbyDuplicate(new int[] {1,2,3,1,2,3}, 2));
         System.out.println();
+
+        MajorityElement2 majorityElement2 = new MajorityElement2();
+        System.out.println("13/04/2026 add both brute force and greedy boye-moore algorithm to detect majority element");
+        System.out.println(majorityElement2.majorityElementBrute(new int[] {3,2,3}));
+        System.out.println(majorityElement2.majorityElement(new int[] {1,2}));
+        System.out.println();
     }
 }
