@@ -1,4 +1,4 @@
-package DynamicProgramming;
+package DynamicProgramming.LinearDP;
 
 /**
  * Dynamic Programming solution for minimum cost to reach top of stairs.

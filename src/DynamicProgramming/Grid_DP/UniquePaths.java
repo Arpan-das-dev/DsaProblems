@@ -1,4 +1,4 @@
-package DynamicProgramming;
+package DynamicProgramming.Grid_DP;
 
 /**
  * Utility class to count unique paths in grid (NeetCode 150 sheet).

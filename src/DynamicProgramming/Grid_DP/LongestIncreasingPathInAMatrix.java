@@ -1,4 +1,4 @@
-package DynamicProgramming;
+package DynamicProgramming.Grid_DP;
 
 /**
  * Utility class to find the longest increasing path in matrix (NeetCode 150 sheet).

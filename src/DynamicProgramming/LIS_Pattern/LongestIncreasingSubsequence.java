@@ -1,4 +1,4 @@
-package DynamicProgramming;
+package DynamicProgramming.LIS_Pattern;
 
 import java.util.ArrayList;
 import java.util.Arrays;

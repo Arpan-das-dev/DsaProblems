@@ -1,4 +1,4 @@
-package DynamicProgramming;
+package DynamicProgramming.LinearDP;
 /**
  * Utility class for calculating the number of distinct ways to climb a staircase.
  *

@@ -1,4 +1,4 @@
-package DynamicProgramming;
+package DynamicProgramming.LinearDP;
 
 /**
  * Utility class to compute the n‑th Tribonacci number.

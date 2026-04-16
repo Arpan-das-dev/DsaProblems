@@ -1,4 +1,4 @@
-package DynamicProgramming;
+package DynamicProgramming.LinearDP;
 /**
  * Solves the classic House Robber problem using Dynamic Programming.
  *

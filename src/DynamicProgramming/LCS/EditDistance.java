@@ -1,4 +1,4 @@
-package DynamicProgramming;
+package DynamicProgramming.LCS;
 
 /**
  * Utility class to compute minimum edit distance (Levenshtein distance) between two strings.

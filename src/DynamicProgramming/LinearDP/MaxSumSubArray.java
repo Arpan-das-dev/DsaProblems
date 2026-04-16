@@ -1,4 +1,4 @@
-package DynamicProgramming;
+package DynamicProgramming.LinearDP;
 
 /**
  * Utility class to find the contiguous subarray within an array that has the largest sum.

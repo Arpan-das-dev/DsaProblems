@@ -1,4 +1,4 @@
-package DynamicProgramming;
+package DynamicProgramming.Palindrome_DP;
 /**
  * Utility class for counting all palindromic substrings in a given string.
  *

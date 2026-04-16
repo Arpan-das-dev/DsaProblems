@@ -1,4 +1,4 @@
-package DynamicProgramming;
+package DynamicProgramming.LCS;
 
 /**
  * Utility class to find length of longest common subsequence between two strings.

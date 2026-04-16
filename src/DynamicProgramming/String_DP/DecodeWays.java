@@ -1,4 +1,4 @@
-package DynamicProgramming;
+package DynamicProgramming.String_DP;
 
 /**
  * Utility class for calculating the number of possible decoding of a numeric string

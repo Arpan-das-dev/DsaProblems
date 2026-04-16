@@ -1,4 +1,4 @@
-package DynamicProgramming.Grid_DP;
+package DynamicProgramming.String_DP;
 
 /**
  * Utility class to implement regular expression matching with '.' and '*'.

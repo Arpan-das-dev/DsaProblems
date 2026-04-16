@@ -1,4 +1,4 @@
-package DynamicProgramming;
+package DynamicProgramming.String_DP;
 
 /**
  * Utility class to check if s3 is interleaving of s1 and s2.

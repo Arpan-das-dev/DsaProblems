@@ -1,4 +1,4 @@
-package DynamicProgramming;
+package DynamicProgramming.Knapsack;
 /**
  * Utility class to compute number of combinations to make change for amount.
  *

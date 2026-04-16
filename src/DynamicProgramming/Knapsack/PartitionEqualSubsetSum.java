@@ -1,4 +1,4 @@
-package DynamicProgramming;
+package DynamicProgramming.Knapsack;
 
 /**
  * Utility class to determine whether an array can be partitioned into two subsets with equal sum.

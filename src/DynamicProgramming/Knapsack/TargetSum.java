@@ -1,4 +1,4 @@
-package DynamicProgramming;
+package DynamicProgramming.Knapsack;
 
 /**
  * Utility class to count ways to assign +/− to reach target sum (NeetCode 150 sheet).

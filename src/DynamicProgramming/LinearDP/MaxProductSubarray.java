@@ -1,6 +1,4 @@
-package DynamicProgramming;
-
-import java.util.Arrays;
+package DynamicProgramming.LinearDP;
 
 public class MaxProductSubarray {
     public int maxProduct(int[] nums) {

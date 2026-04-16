@@ -1,4 +1,4 @@
-package DynamicProgramming;
+package DynamicProgramming.Palindrome_DP;
 /**
  * Utility class for finding the longest palindromic substring in a given string.
  *

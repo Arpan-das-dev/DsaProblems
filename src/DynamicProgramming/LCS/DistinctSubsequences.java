@@ -1,4 +1,4 @@
-package DynamicProgramming;
+package DynamicProgramming.LCS;
 
 /**
  * Utility class to count distinct subsequences of s matching target t.

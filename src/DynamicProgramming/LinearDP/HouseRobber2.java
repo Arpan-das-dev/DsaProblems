@@ -1,4 +1,4 @@
-package DynamicProgramming;
+package DynamicProgramming.LinearDP;
 
 /**
  * Utility class for solving the House Robber II problem, where houses are arranged in a circle.
