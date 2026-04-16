@@ -2,8 +2,34 @@ import BackTracking.*;
 import BinarySearch.*;
 import BitManipulation.*;
 import DivideAndConquer.FindKthLargestElement;
-import DynamicProgramming.*;
-import Graphs.*;
+import DynamicProgramming.String_DP.InterleavingString;
+import DynamicProgramming.Grid_DP.LongestIncreasingPathInAMatrix;
+import DynamicProgramming.String_DP.RegularExpressionMatching;
+import DynamicProgramming.Grid_DP.UniquePaths;
+import DynamicProgramming.Knapsack.CoinChange;
+import DynamicProgramming.Knapsack.CoinChange2;
+import DynamicProgramming.Knapsack.PartitionEqualSubsetSum;
+import DynamicProgramming.Knapsack.TargetSum;
+import DynamicProgramming.LCS.DistinctSubsequences;
+import DynamicProgramming.LCS.EditDistance;
+import DynamicProgramming.LCS.LongestCommonSubSequence;
+import DynamicProgramming.LinearDP.*;
+import DynamicProgramming.String_DP.DecodeWays;
+import DynamicProgramming.String_DP.WordBreak;
+import Graphs.EulerianPath.ReconstructItinerary;
+import Graphs.MST.MinCostToConnectAllPoints;
+import Graphs.ShortestPath.NetworkDelay;
+import Graphs.ShortestPath.SwimInRisingWater;
+import Graphs.ShortestPath.WordLadder;
+import Graphs.TopologicalSort.AlienDictionary;
+import Graphs.TopologicalSort.CourseSchedule;
+import Graphs.TopologicalSort.CourseSchedule2;
+import Graphs.Traversal.GraphIsTree;
+import Graphs.Traversal.MaxAreaOfIsland;
+import Graphs.Traversal.NumberOfIsland;
+import Graphs.Traversal.PacificAtlanticWaterFlow;
+import Graphs.UnionFind.ConnectedComponentsInAUnidirectedGraph;
+import Graphs.UnionFind.RedundantConnection;
 import Greedy.*;
 import Hashing.*;
 import Heaps.KClosestPointToOrigin;
@@ -768,6 +794,11 @@ public class Main {
         Combinations1 combinations1 = new Combinations1();
         System.out.println("13/04/2026 add recursive backtracking to detect all distinct combination of k size");
         System.out.println(combinations1.combine(3,2));
+        System.out.println();
+
+        DecodeString decodeString = new DecodeString();
+        System.out.println("16/04/2026 add stack based solution to decode a string");
+        System.out.println(decodeString.decodeString("3[a]2[bc]"));
         System.out.println();
     }
 }
