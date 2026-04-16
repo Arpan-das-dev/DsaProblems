@@ -1,4 +1,4 @@
-package Graphs;
+package Graphs.MST;
 
 import java.util.Arrays;
 import java.util.Comparator;

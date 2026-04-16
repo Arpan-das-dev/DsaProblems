@@ -1,4 +1,6 @@
-package Graphs;
+package Graphs.Traversal;
+
+import Graphs.Node;
 
 import java.util.HashMap;
 import java.util.Map;

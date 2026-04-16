@@ -1,4 +1,4 @@
-package Graphs;
+package Graphs.Traversal;
 
 /**
  * Utility class for finding the maximum area of an island in a 2D grid map.

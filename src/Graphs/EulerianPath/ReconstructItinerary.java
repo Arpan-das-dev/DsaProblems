@@ -1,4 +1,4 @@
-package Graphs;
+package Graphs.EulerianPath;
 
 import java.util.*;
 

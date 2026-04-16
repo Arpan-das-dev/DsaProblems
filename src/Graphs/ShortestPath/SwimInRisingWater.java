@@ -1,4 +1,4 @@
-package Graphs;
+package Graphs.ShortestPath;
 
 /**
  * Utility class to find minimum time to swim from (0,0) to (n-1,n-1) (NeetCode 150 sheet).

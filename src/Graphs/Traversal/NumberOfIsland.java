@@ -1,4 +1,4 @@
-package Graphs;
+package Graphs.Traversal;
 
 /**
  * Utility class to count the number of islands in a 2D grid map.
