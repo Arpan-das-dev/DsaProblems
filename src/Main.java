@@ -16,6 +16,7 @@ import DynamicProgramming.LCS.LongestCommonSubSequence;
 import DynamicProgramming.LinearDP.*;
 import DynamicProgramming.String_DP.DecodeWays;
 import DynamicProgramming.String_DP.WordBreak;
+import Graphs.Degree.FindTheJudge;
 import Graphs.EulerianPath.ReconstructItinerary;
 import Graphs.MST.MinCostToConnectAllPoints;
 import Graphs.ShortestPath.NetworkDelay;
@@ -799,6 +800,11 @@ public class Main {
         DecodeString decodeString = new DecodeString();
         System.out.println("16/04/2026 add stack based solution to decode a string");
         System.out.println(decodeString.decodeString("3[a]2[bc]"));
+        System.out.println();
+
+        FindTheJudge theJudge = new FindTheJudge();
+        System.out.println("16/04/2026 add indegree + outdegree based solution to find the judge");
+        System.out.println(theJudge.findJudge(2, new int[][] {{1,2}}));
         System.out.println();
     }
 }
