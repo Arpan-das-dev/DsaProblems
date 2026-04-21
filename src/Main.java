@@ -813,5 +813,10 @@ public class Main {
         System.out.println("21/04/2026 add two pointer approach to remove element in-place");
         System.out.println(removeElement.removeElement(new int[] {4,3,5,6,72,2,3,4,1},2));
         System.out.println();
+
+        HandsOfStraights handsOfStraights = new HandsOfStraights();
+        System.out.println("21/04/2026 add greedy approach with treemap to solve hands of straights");
+        System.out.println(handsOfStraights.isNStraightHand(new int[] {1,3,4,6,7,2,8,5,9},3));
+        System.out.println();
     }
 }
