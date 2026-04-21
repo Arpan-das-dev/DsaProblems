@@ -2,14 +2,11 @@ import BackTracking.*;
 import BinarySearch.*;
 import BitManipulation.*;
 import DivideAndConquer.FindKthLargestElement;
+import DynamicProgramming.Knapsack.*;
 import DynamicProgramming.String_DP.InterleavingString;
 import DynamicProgramming.Grid_DP.LongestIncreasingPathInAMatrix;
 import DynamicProgramming.String_DP.RegularExpressionMatching;
 import DynamicProgramming.Grid_DP.UniquePaths;
-import DynamicProgramming.Knapsack.CoinChange;
-import DynamicProgramming.Knapsack.CoinChange2;
-import DynamicProgramming.Knapsack.PartitionEqualSubsetSum;
-import DynamicProgramming.Knapsack.TargetSum;
 import DynamicProgramming.LCS.DistinctSubsequences;
 import DynamicProgramming.LCS.EditDistance;
 import DynamicProgramming.LCS.LongestCommonSubSequence;
@@ -805,6 +802,11 @@ public class Main {
         FindTheJudge theJudge = new FindTheJudge();
         System.out.println("16/04/2026 add indegree + outdegree based solution to find the judge");
         System.out.println(theJudge.findJudge(2, new int[][] {{1,2}}));
+        System.out.println();
+
+        CombinationSum4 sum4 = new CombinationSum4();
+        System.out.println("21/04/2026 add knapsack dp way to solve combination sum");
+        System.out.println(sum4.combinationSum4(new int[] {1,2,3},4));
         System.out.println();
     }
 }
