@@ -808,5 +808,10 @@ public class Main {
         System.out.println("21/04/2026 add knapsack dp way to solve combination sum");
         System.out.println(sum4.combinationSum4(new int[] {1,2,3},4));
         System.out.println();
+
+        RemoveElement removeElement = new RemoveElement();
+        System.out.println("21/04/2026 add two pointer approach to remove element in-place");
+        System.out.println(removeElement.removeElement(new int[] {4,3,5,6,72,2,3,4,1},2));
+        System.out.println();
     }
 }
